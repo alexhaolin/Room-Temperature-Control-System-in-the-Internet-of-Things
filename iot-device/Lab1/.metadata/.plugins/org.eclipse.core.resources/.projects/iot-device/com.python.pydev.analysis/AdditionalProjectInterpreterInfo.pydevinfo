@@ -1,0 +1,219 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\.metadata\.plugins\org.eclipse.core.resources\.projects\iot-device\com.python.pydev.analysis\v2_indexcache
+labs.common.ConfigUtil|1539409582000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\common\ConfigUtil.py
+RPi.__init__|1538855664000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\RPi\__init__.py
+labs.module01.SystemPerformanceApp|1538855994000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module01\SystemPerformanceApp.py
+labs.common.ActuatorData|1539140896000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\common\ActuatorData.py
+labs.module04.test|1539473358000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module04\test.py
+labs.module03.__init__|1536437592000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module03\__init__.py
+labs.module01.SystemPerformanceAdaptor|1538855994000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module01\SystemPerformanceAdaptor.py
+RPi.GPIO|1539066104000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\RPi\GPIO.py
+labs.module03.TempSensorAdaptor|1539481221128293000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module03\TempSensorAdaptor.py
+labs.common.ConfigConst|1539417060000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\common\ConfigConst.py
+labs.common.__init__|1538855768000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\common\__init__.py
+labs.__init__|1538855558000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\__init__.py
+labs.module02.__init__|1536437568000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module02\__init__.py
+labs.module05.__init__|1538855848000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module05\__init__.py
+labs.module02.TempSimulatorApp|1538352486000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module02\TempSimulatorApp.py
+labs.module02.TempSensorEmulator|1539065526000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module02\TempSensorEmulator.py
+labs.module03.SenseHatLedActivator|1539481609615848000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module03\SenseHatLedActivator.py
+labs.module04.SensorReaderApp|1539484145348298000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module04\SensorReaderApp.py
+labs.module04.I2CSenseHatAdaptor|1539474130000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module04\I2CSenseHatAdaptor.py
+sense_hat|1539141294000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\sense_hat.py
+labs.common.SensorData|1539474562000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\common\SensorData.py
+labs.module03.TempActuatorEmulator|1539481229048099000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module03\TempActuatorEmulator.py
+labs.module02.SmtpClientConnector|1539409594000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module02\SmtpClientConnector.py
+labs.module03.SimpleLedActivator|1539407270000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module03\SimpleLedActivator.py
+labs.module03.TempManagementApp|1539409760000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module03\TempManagementApp.py
+labs.module01.__init__|1538855784000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module01\__init__.py
+__init__|1538855768000000000|C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+79
+10=labs.common.ConfigUtil
+3=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module04\I2CSenseHatAdaptor.py
+39=SmtpClientConnector
+15=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\sense_hat.py
+47=TempActuatorEmulator
+60=SystemPerformanceAdaptor.__init__
+79=ActuatorData.setValue
+75=SensorData._init_
+73=SenseHatLedActivator.__init__
+6=labs.common.ActuatorData
+37=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module01\SystemPerformanceApp.py
+2=RPi.GPIO
+11=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\common\SensorData.py
+65=TempSensorAdaptor.__init__
+78=ActuatorData.updateTimeStamp
+42=SimpleLedActivator
+70=SensorData.setName
+49=SenseHat
+56=ActuatorData.setCommand
+35=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module02\TempSimulatorApp.py
+63=SenseHatLedActivator.setDisplayMessage
+77=ActuatorData.setStateData
+67=ActuatorData.setErrorCode
+14=labs.module03.SenseHatLedActivator
+69=TempActuatorEmulator.__init__
+34=labs.module04.SensorReaderApp
+76=ActuatorData.setStatusCode
+4=labs.module04.I2CSenseHatAdaptor
+51=I2CSenseHatAdaptor.initI2CBus
+72=SimpleLedActivator.__init__
+1=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\RPi\GPIO.py
+46=SenseHatLedActivator
+32=labs.module03.TempManagementApp
+57=ActuatorData.updateData
+66=SenseHatLedActivator.setEnableLedFlag
+7=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\common\ConfigConst.py
+33=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module04\SensorReaderApp.py
+27=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module02\TempSensorEmulator.py
+54=SensorData.addValue
+71=ActuatorData.setName
+19=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module03\SimpleLedActivator.py
+23=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module01\SystemPerformanceAdaptor.py
+13=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module03\SenseHatLedActivator.py
+59=ConfigUtil.__init__
+38=labs.module01.SystemPerformanceApp
+48=I2CSenseHatAdaptor
+18=labs.module04.test
+9=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\common\ConfigUtil.py
+24=labs.module01.SystemPerformanceAdaptor
+30=labs.module03.TempSensorAdaptor
+29=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module03\TempSensorAdaptor.py
+8=labs.common.ConfigConst
+52=TempActuatorEmulator.processMessage
+62=TempSensorAdaptor.run
+55=SenseHat.clear
+40=SystemPerformanceAdaptor
+17=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module04\test.py
+36=labs.module02.TempSimulatorApp
+28=labs.module02.TempSensorEmulator
+44=ConfigUtil
+58=I2CSenseHatAdaptor.__init__
+68=ConfigUtil.loadConfig
+74=SenseHat.set_rotation
+50=SensorData
+43=ActuatorData
+21=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module02\SmtpClientConnector.py
+5=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\common\ActuatorData.py
+25=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module03\TempActuatorEmulator.py
+31=C:\Users\xuhaolin\Desktop\Connected Devices\iot-device\Lab1\iot-device\apps\labs\module03\TempManagementApp.py
+16=sense_hat
+61=TempSensorEmulator.__init__
+12=labs.common.SensorData
+26=labs.module03.TempActuatorEmulator
+20=labs.module03.SimpleLedActivator
+22=labs.module02.SmtpClientConnector
+64=SimpleLedActivator.setEnableLedFlag
+41=TempSensorEmulator
+53=TempSensorEmulator.run
+45=TempSensorAdaptor
+-- END DICTIONARY
+-- START TREE 1
+48
+IN|1|IN!1^6#1*19@
+acc|2|acc!3^14#1*35@accAddr!3^24#1*35@
+act|1|ActuatorData!5^15#7*49@
+bcm|1|BCM!1^3#1*19@
+beg|1|begAddr!3^29#1*35@
+boa|1|BOARD!1^2#1*19@
+cle|2|clear!1^16#5*18@clearFlag!1^11#1*19@
+clo|6|CLOUD_API_KEY!7^26#1*67@CLOUD_COAP_HOST!7^29#1*67@CLOUD_COAP_PORT!7^30#1*67@CLOUD_MQTT_BROKER!7^27#1*67@CLOUD_MQTT_PORT!7^28#1*67@CLOUD!7^5#1*67@
+coa|4|COAP_GATEWAY_SECTION!7^20#1*67@COAP_DEVICE_SECTION!7^22#1*67@COAP_CLOUD_SECTION!7^18#1*67@COAP!7^7#1*67@
+com|4|COMMAND_ON!5^6#1*51@COMMAND_SET!5^7#1*51@COMMAND_RESET!5^8#1*51@COMMAND_OFF!5^5#1*51@
+con|2|ConfigUtil!9^6#7*81@CONSTRAINED_DEVICE!7^10#1*67@
+cur|2|curDir!1^14#1*19@curPin!1^13#1*19@
+def|4|DEFAULT_CONFIG_FILE_NAME!7^2#1*67@DEFAULT_PIN!1^8#1*19@DEFAULT_RATE_IN_SEC!3^32#1*35@Default_CONFIG_FILE!9^4#1*83@
+dev|1|DEVICE!7^12#1*67@
+ena|7|ENABLE_AUTH_KEY!7^48#1*67@ENABLE_CRYPT_KEY!7^49#1*67@enableControl!3^20#1*35@ENABLE_LOGGING_KEY!7^51#1*67@enableMeasure!3^21#1*35@ENABLE_EMULATOR_KEY!7^50#1*67@enableEmulator!3^22#1*35@
+err|3|ERROR_OK!5^11#1*51@ERROR_NON_RESPONSIBLE!5^13#1*51@ERROR_COMMAND_FAILED!5^12#1*51@
+fro|1|FROM_ADDRESS_KEY!7^33#1*67@
+gat|1|GATEWAY_DEVICE!7^9#1*67@
+hig|1|HIGH!1^5#1*19@
+hos|1|HOST_KEY!7^39#1*67@
+hum|2|hum!3^17#1*35@humAddr!3^27#1*35@
+i2c|2|i2cBus!3^12#1*35@I2CSenseHatAdaptor!3^38#7*33@
+low|1|LOW!1^4#1*19@
+mag|2|mag!3^15#1*35@magAddr!3^25#1*35@
+mod|1|mode!1^12#1*19@
+mqt|4|MQTT_GATEWAY_SECTION!7^19#1*67@MQTT_DEVICE_SECTION!7^21#1*67@MQTT_CLOUD_SECTION!7^17#1*67@MQTT!7^6#1*67@
+nom|1|NOMINAL_TEMP_KEY!7^53#1*67@
+out|2|output!1^19#5*18@OUT!1^7#1*19@
+pol|1|POLL_CYCLES_KEY!7^52#1*67@
+por|1|PORT_KEY!7^40#1*67@
+pre|2|pre!3^16#1*35@preAddr!3^26#1*35@
+rat|1|rateInSec!3^33#1*35@
+rot|1|rotateDeg!1^10#1*19@
+sec|2|SECTION_SEPARATOR!7^1#1*67@SECURE_PORT_KEY!7^41#1*67@
+sen|4|SensorData!11^4#7*97@SenseHatLedActivator!13^5#7*113@sense!3^35#1*35@SenseHat!15^1#7*129@
+set|3|set_rotation!1^23#5*18@setmode!1^26#5*18@setup!1^29#5*18@
+sh|1|sh!17^3#1*147@
+sim|1|SimpleLedActivator!19^10#7*161@
+smt|3|SmtpClientConnector!21^7#7*177@SMTP_CLOUD_SECTION!7^16#1*67@SMTP!7^8#1*67@
+sta|2|STATUS_IDLE!5^9#1*51@STATUS_ACTIVE!5^10#1*51@
+sys|1|SystemPerformanceAdaptor!23^6#7*193@
+tem|4|temp!3^18#1*35@TempActuatorEmulator!25^6#7*209@TempSensorEmulator!27^7#7*225@TempSensorAdaptor!29^10#7*241@
+tes|3|test!31^9#1*259@test!33^7#1*275@test!35^5#1*291@
+thr|1|thread1!37^6#1*307@
+to_|3|TO_TXT_ADDRESS_KEY!7^36#1*67@TO_ADDRESS_KEY!7^34#1*67@TO_MEDIA_ADDRESS_KEY!7^35#1*67@
+tot|1|totBytes!3^30#1*35@
+ubi|2|UBIDOTS!7^11#1*67@UBIDOTS_CLOUD_SECTION!7^15#1*67@
+use|2|USER_AUTH_TOKEN_KEY!7^45#1*67@USER_NAME_TOKEN_KEY!7^44#1*67@
+-- END TREE
+-- START TREE 2
+52
+__i|11|__init__!39&21^12#9*178@__init__!40&23^7#9*194@__init__!41&27^22#9*226@__init__!42&19^14#9*162@__init__!43&5^26#9*50@__init__!44&9^11#9*82@__init__!45&29^26#9*242@__init__!46&13^12#9*114@__init__!47&25^12#9*210@__init__!48&3^41#13*34@__init__!49&15^5#9*130@
+__s|2|__str__!43&5^79#9*50@__str__!50&11^49#9*98@
+_in|1|_init_!50&11^14#9*98@
+acc|1|acc!51&3^64#13*35@
+act|3|actuatordata!47&25^8#5*211@actuatordata!52&25^19#13*211@actuatordata!45&29^23#5*243@
+add|1|addValue!50&11^18#9*98@
+ale|2|alertDiff!41&27^12#5*227@alertDiff!53&27^38#17*227@
+ave|2|average!50&11^10#5*99@average!54&11^24#9*99@
+cle|3|clear!49&15^8#9*130@clearFlag!49&15^3#5*131@clearFlag!55&15^9#9*131@
+com|3|command!43&5^20#5*51@command!56&5^48#9*51@command!57&5^70#9*51@
+con|7|connector!45&29^21#5*243@config!58&3^45#13*35@config!39&21^8#5*179@configfile!44&9^7#5*83@configfile!59&9^13#13*83@configdata!44&9^8#5*83@connector!41&27^18#5*227@
+cou|1|counter!60&23^11#9*195@
+cru|1|cruTemp!41&27^11#5*227@
+cur|5|curTemp!61&27^27#9*227@curTemp!53&27^36#17*227@curTemp!62&29^37#17*243@current!50&11^7#5*99@current!54&11^22#9*99@
+dis|6|displayMsg!46&13^10#5*115@displayMsg!63&13^39#9*115@displayMagnetometerData!48&3^73#13*34@displayHumiditymeterData!48&3^81#13*34@displayPressuremeterData!48&3^77#13*34@displayAccelerometerData!48&3^69#13*34@
+ena|10|enableLed!42&19^11#5*163@enableLed!64&19^37#9*163@enableEmulator!39&21^9#5*179@enableEmulator!45&29^16#5*243@enableEmulator!65&29^30#9*243@enableLed!46&13^6#5*115@enableLed!66&13^36#9*115@enableEmulator!58&3^48#13*35@enableEmulator!41&27^15#5*227@enableEmulator!61&27^29#9*227@
+err|3|errCode!43&5^21#5*51@errCode!67&5^60#9*51@errCode!57&5^72#9*51@
+get|19|getRateInSeconds!42&19^32#9*162@get_pressure!49&15^25#9*130@getMin!50&11^40#9*98@getCommand!43&5^29#9*50@getConfigFile!44&9^25#9*82@getMax!50&11^37#9*98@getStatusDate!43&5^35#9*50@get_temperature_from_pressure!49&15^22#9*130@getName!43&5^32#9*50@getAverage!50&11^34#9*98@get_get_temperature_from_humidity!49&15^18#9*130@getErrorCode!43&5^38#9*50@getCurrent!50&11^43#9*98@getRateInSeconds!46&13^31#9*114@get_temperature!49&15^15#9*130@get_humidity!49&15^11#9*130@getValue!43&5^41#9*50@getConfig!44&9^20#9*82@getProperty!44&9^28#9*82@
+has|3|hasError!43&5^44#9*50@hasError!43&5^19#5*51@hasError!67&5^62#13*51@
+hig|2|highVal!41&27^10#5*227@highVal!61&27^26#9*227@
+hum|1|hum!51&3^67#13*35@
+ini|1|initI2CBus!48&3^55#13*34@
+isc|1|isConfigDataLoaded!44&9^31#9*82@
+isl|2|isLoaded!44&9^9#5*83@isLoaded!68&9^18#13*83@
+isp|4|isPrevTempSet!45&29^17#5*243@isPrevTempSet!62&29^51#21*243@isPrevTempSet!41&27^16#5*227@isPrevTempSet!53&27^53#21*227@
+loa|1|loadConfig!44&9^15#9*82@
+low|4|lowVal!41&27^9#5*227@lowVal!61&27^25#9*227@lowertemp!47&25^10#5*211@lowertemp!69&25^14#9*211@
+mag|1|mag!51&3^65#13*35@
+max|2|max!50&11^9#5*99@max!54&11^30#13*99@
+min|2|min!50&11^8#5*99@min!54&11^27#13*99@
+nam|6|name!60&23^10#9*195@name!50&11^6#5*99@name!54&11^21#9*99@name!70&11^47#9*99@name!43&5^18#5*51@name!71&5^51#9*51@
+nom|3|nominalaveragetemp!45&29^12#5*243@nominalaveragetemp!65&29^28#9*243@nominalTemp!39&21^11#5*179@
+pol|1|pollCycleSecs!39&21^10#5*179@
+pre|3|prevTemp!53&27^52#21*227@pre!51&3^66#13*35@prevTemp!62&29^50#21*243@
+pro|1|processMessage!47&25^17#9*210@
+pub|1|publishMessage!39&21^16#9*178@
+rai|2|raisetemp!47&25^9#5*211@raisetemp!69&25^13#9*211@
+rat|5|rateInSec!42&19^12#5*163@rateInSec!72&19^18#13*163@rateInSec!46&13^7#5*115@rateInSec!73&13^16#13*115@rateInSec!58&3^49#13*35@
+rot|4|rotateDeg!46&13^8#5*115@rotateDeg!73&13^18#13*115@rotateDeg!49&15^2#5*131@rotateDeg!74&15^30#9*131@
+run|6|run!46&13^23#9*114@run!40&23^13#9*194@run!42&19^23#9*162@run!45&29^33#9*242@run!41&27^32#9*226@run!48&3^87#13*34@
+sam|2|sampleCount!50&11^12#5*99@sampleCount!75&11^16#9*99@
+sen|4|sensordata!45&29^22#5*243@sensorid!41&27^14#5*227@sensordata!41&27^19#5*227@sensorid!45&29^13#5*243@
+set|11|setStatusCode!43&5^56#9*50@setEnableLedFlag!46&13^34#9*114@setCommand!43&5^47#9*50@setEnableLedFlag!42&19^35#9*162@setValue!43&5^66#9*50@set_rotation!49&15^29#9*130@setStateData!43&5^53#9*50@setDisplayMessage!46&13^38#9*114@setName!43&5^50#9*50@setErrorCode!43&5^59#9*50@setName!50&11^46#9*98@
+sh|4|sh!45&29^11#5*243@sh!65&29^27#9*243@sh!46&13^9#5*115@sh!73&13^20#9*115@
+sho|2|show_message!49&15^35#9*130@show_letter!49&15^32#9*130@
+sle|4|sleepcycle!45&29^15#5*243@sleepcycle!65&29^29#9*243@sleepcycle!41&27^13#5*227@sleepcycle!61&27^28#9*227@
+sta|6|statusCode!43&5^22#5*51@statusCode!76&5^57#9*51@statusCode!57&5^71#9*51@stateData!43&5^23#5*51@stateData!77&5^54#9*51@stateData!57&5^73#9*51@
+thr|4|threadID!41&27^8#5*227@threadID!61&27^24#9*227@threshold!45&29^14#5*243@threadID!60&23^9#9*195@
+tim|5|timeStamp!43&5^17#5*51@timeStamp!78&5^77#9*51@timeStamp!50&11^5#5*99@timeStamp!75&11^15#9*99@timeStamp!54&11^20#9*99@
+tot|2|total!50&11^11#5*99@total!54&11^23#9*99@
+upd|2|updateTimeStamp!43&5^76#9*50@updateData!43&5^69#9*50@
+val|3|val!43&5^24#5*51@val!79&5^67#9*51@val!57&5^74#9*51@
+-- END TREE

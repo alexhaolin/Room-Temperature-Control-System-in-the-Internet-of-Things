@@ -1,0 +1,18 @@
+package org.haolinxu.iot.module01;
+
+public class CoapConnectionClient {
+
+	private CoapClient _clientConn;
+	
+	
+	public CoapConnectionClient() {
+		super();
+	}
+	
+	
+	
+	
+	
+	
+
+}

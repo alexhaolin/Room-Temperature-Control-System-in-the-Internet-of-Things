@@ -1,0 +1,9 @@
+package org.haolinxu.iot.module01;
+
+public class CoapConnectionClient {
+
+	public CoapConnectionClient() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

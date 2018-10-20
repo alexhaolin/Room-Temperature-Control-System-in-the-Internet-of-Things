@@ -1,0 +1,91 @@
+package org.haolinxu.iot.module01;
+
+import java.util.Set;
+import java.util.logging.Logger;
+
+import org.eclipse.californium.core.CoapClient;
+import org.eclipse.californium.core.WebLink;
+
+public class CoapConnectionClient {
+
+	private CoapClient _coapClient;
+
+	private String _protocol = "coap";
+	private String _host = "californium.eclipse.org";
+	private int _port = 5683;
+	private String _connUrl = null;
+	
+	private static final Logger _Logger = 
+			Logger.getLogger(CoapConnectionClientApp.class.getName());
+
+	public CoapConnectionClient() {
+		super();
+		_connUrl = new String(_protocol + "://" + _host + ":" + _port + "/");
+	}
+
+	public void runTests() {
+		pingServer();
+		displayResources();
+		sendGetRequest();
+
+	}
+
+	public void pingServer() {
+		initClient();
+		
+		if (_coapClient.ping()) {
+			_Logger.info("Ping successful!");
+		}
+	
+	}
+
+	public void displayResources() {
+		initClient();
+		
+		_Logger.info("Getting all remote web links...");
+		
+		Set<WebLink> webLinkSet = _coapClient.discover();
+		
+		for (WebLink wl : webLinkSet) {
+			_Logger.info(wl.getURI());
+		}
+	}
+
+	public void sendGetRequest() {
+		sendGetRequest(null);
+	}
+
+	public void sendGetRequest(String resource) {
+
+		initClient();
+	}
+
+	public void sendPostRequest() {
+		initClient();
+
+	}
+
+	public void sendPutRequest() {
+		initClient();
+
+	}
+
+	private void initClient() {
+		initClient(null);
+	}
+
+	private void initClient(String resource) {
+
+		if (_coapClient != null) {
+			_coapClient.shutdown();
+			_coapClient = null;
+		}
+
+		if (resource != null && resource.trim().length() > 0) {
+			_coapClient = new CoapClient(_connUrl + resource);
+		} else {
+			_coapClient = new CoapClient(_connUrl);
+		}
+	}
+
+}

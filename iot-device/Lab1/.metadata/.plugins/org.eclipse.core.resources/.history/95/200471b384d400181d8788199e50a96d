@@ -1,0 +1,24 @@
+package org.haolinxu.iot.module01;
+
+import java.util.logging.Logger;
+
+import org.eclipse.californium.core.CoapServer;
+
+public class CoapServerConnection {
+
+	private static final Logger _Logger = 
+			Logger.getLogger(CoapConnectionClientApp.class.getName());
+	
+	private CoapServer _coapServer;
+	
+	public CoapServerConnection() {
+		super();
+	}
+	
+	public void satrt() {
+		_coapServer.start();
+	}
+	
+	public void 
+
+}

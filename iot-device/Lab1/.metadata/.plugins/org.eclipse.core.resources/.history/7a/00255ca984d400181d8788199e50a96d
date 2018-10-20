@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package org.haolinxu.iot.module01;
+
+import org.eclipse.californium.core.CoapResource;
+
+/**
+ * @author Alex
+ *
+ */
+public class ResourceTemp extends CoapResource {
+
+	/**
+	 * @param name
+	 */
+	public ResourceTemp(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param name
+	 * @param visible
+	 */
+	public ResourceTemp(String name, boolean visible) {
+		super(name, visible);
+		// TODO Auto-generated constructor stub
+	}
+
+}

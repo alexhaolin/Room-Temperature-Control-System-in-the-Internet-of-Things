@@ -1,0 +1,20 @@
+package org.haolinxu.iot.module01;
+
+import org.eclipse.californium.core.CoapClient;
+
+public class CoapConnectionClient {
+
+	private CoapClient _clientConn;
+	
+	
+	public CoapConnectionClient() {
+		super();
+	}
+	
+	
+	
+	
+	
+	
+
+}

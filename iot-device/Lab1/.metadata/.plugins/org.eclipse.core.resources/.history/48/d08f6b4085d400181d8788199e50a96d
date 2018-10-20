@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+package org.haolinxu.iot.module01;
+
+import java.util.logging.Logger;
+
+import org.eclipse.californium.core.CoapResource;
+
+/**
+ * @author Alex
+ *
+ */
+public class ResourceTemp extends CoapResource {
+
+	private static final Logger _Logger = 
+			Logger.getLogger(ResourceTemp.class.getName());
+	
+	
+	
+	/**
+	 * @param name
+	 */
+	public ResourceTemp(String name) {
+		super(name);
+	}
+
+	/**
+	 * @param name
+	 * @param visible
+	 */
+	public ResourceTemp(String name, boolean visible) {
+		super(name, visible);
+		// TODO Auto-generated constructor stub
+	}
+
+}
