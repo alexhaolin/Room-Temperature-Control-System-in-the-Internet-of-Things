@@ -9,6 +9,10 @@
 	<id>Eclipse Californium Repo</id>
 	<url>https://repo.eclipse.org/content/repositories/californium-releases/</url>
     </repository>
+    <repository>
+    	<id>Eclipse Paho Repo</id>
+    	<url>http://repo.eclipse.org/content/repositories/paho-releases/</url>
+    </repository>
   </repositories>
   
   <dependencies>
