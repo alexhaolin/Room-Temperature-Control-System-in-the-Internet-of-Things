@@ -92,9 +92,10 @@ public class MqttClientConnector implements MqttCallback {
 			
 			_Logger.log(Level.SEVERE, "Failed to create a client. ", e);
 			
-		}
+	    }
 	}
 	
+	// 
 	public MqttClientConnector(String host, String userName, String password, String pemFileName) {
 		super();
 		
@@ -113,7 +114,6 @@ public class MqttClientConnector implements MqttCallback {
 
 		if (pemFileName != null) {
 			File file = new File(pemFileName);
-			System.out.println(file.exists());
 			if (file.exists()) {
 				_protocol   	= "ssl";
 				_port			= 8883;
@@ -128,7 +128,7 @@ public class MqttClientConnector implements MqttCallback {
 		
 		_clientID 	= MqttClient.generateClientId();
 		_brokerAddr = _protocol + "://" + _host + ":" + _port;
-		System.out.println("Client ID: " + _clientID + " . Broker Address: " + _brokerAddr);
+		_Logger.info("Client ID: " + _clientID + " . Broker Address: " + _brokerAddr);
 		
 		_Logger.info("Using URL for broker coon: " + _brokerAddr) ;
 		

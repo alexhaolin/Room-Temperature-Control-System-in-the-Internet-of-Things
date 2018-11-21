@@ -57,16 +57,23 @@ public class CoapClientConnector {
 			initClient(resourceName);
 			_Logger.info("Current URI: " + getCurrentUri());
 			String payload = "Sample payload.";
+			
 			pingServer();
-
+			
 			discoverResources();
+			
 			sendGetRequest();
 			sendGetRequest(true);
+			
 			sendPostRequest(payload, false);
 			sendPostRequest(payload, true);
+			
 			sendPutRequest(payload, false);
 			sendPutRequest(payload, true);
+			
 			sendDeleteRequest();
+			
+			
 		} catch (Exception e) {
 			_Logger.log(Level.SEVERE, "Failed to issue request to CoAP server.", e);
 		}
@@ -192,7 +199,7 @@ public class CoapClientConnector {
 		CoapResponse response = _client.get();
 		if(response != null) {
 			_Logger.info(
-					"Response: " + response.isSuccess() + " - " + response.getOptions() + " - " + response.getCode());
+					"Response: " + response.isSuccess() + " - " + response.getResponseText() + " - " + response.getCode());
 		}else {
 			_Logger.warning("No response received.");
 		}

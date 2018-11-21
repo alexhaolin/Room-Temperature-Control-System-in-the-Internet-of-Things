@@ -58,7 +58,7 @@ public class MqttSubClientTestApp
 		//_mqttClientConnector.messageArrived(topic, msg);
 		
 	
-		_mqttClientConnector.disconnect();
+		//_mqttClientConnector.disconnect();
 	}
 }
 

@@ -11,9 +11,9 @@ public class TempSensorPublisherApp {
 	public static void main(String[] args) {
 		_pubApp = new TempSensorPublisherApp();
 		try {
+			_Logger.info("TempSensorPublisherApp starts.");
 			_pubApp.start();
-			_Logger.info("Publisher starts.");
-		} catch(Exception e) {
+		} catch(Exception e) {	
 			e.printStackTrace();
 		}
 	}
@@ -42,9 +42,12 @@ public class TempSensorPublisherApp {
 		_mqttClientConnector.connect();
 		
 		String topic = "/v1.6/devices/alexhandsome/tempsensor";
-		String payload = "2";
+		String payload = "5";
 		
-		_mqttClientConnector.publishMessage(topic, 1, payload.getBytes() );
+		_mqttClientConnector.publishMessage(topic, 1, payload.getBytes());
+		
+		_Logger.info("Payload <" + payload + "> sent successfully.");
+		
 		_mqttClientConnector.disconnect();
 
 		

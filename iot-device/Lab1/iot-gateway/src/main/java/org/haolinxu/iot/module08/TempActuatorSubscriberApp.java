@@ -13,7 +13,7 @@ public class TempActuatorSubscriberApp {
 	public static void main(String[] args) {
 		_actApp = new TempActuatorSubscriberApp();
 		try {
-			_Logger.info("Actuator starts.");
+			_Logger.info("TempActuatorSubscriberApp starts.");
 			_actApp.start();
 		} catch(Exception e) {
 			e.printStackTrace();
@@ -46,7 +46,7 @@ public class TempActuatorSubscriberApp {
 		
 		_mqttClientConnector.subscribeToTopic(topic);
 		
-		_mqttClientConnector.disconnect();
+		//_mqttClientConnector.disconnect();
 		
 		
 	}
