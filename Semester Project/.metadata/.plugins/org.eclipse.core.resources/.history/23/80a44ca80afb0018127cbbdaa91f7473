@@ -1,0 +1,82 @@
+/**
+ * 
+ */
+package gateway;
+
+import java.util.logging.Logger;
+
+import org.eclipse.californium.core.CoapResource;
+import org.eclipse.californium.core.CoapServer;
+
+/**
+ * @author Haolin Xu
+ *
+ */
+public class CoAPServerConnection {
+
+	//static
+	private static final Logger _Logger = 
+			Logger.getLogger(CoAPServerConnection.class.getName());
+	
+	
+	// private var's
+	private CoapServer _coapServer;
+	
+	/**
+	 * Default constructor
+	 */
+	public CoAPServerConnection() {
+		super();
+	}
+	
+
+
+	
+	//public methods
+	/**
+	 * initiate the server and add resources to the server
+	 */
+	public void initServer() {
+		_coapServer = new CoapServer();
+		ResourceTemp resourceTemp = new ResourceTemp("temp");
+
+		addResource(resourceTemp);
+
+		System.out.println("add resource successful!");
+	}
+	
+	public void addDefaultResource(String Name) {
+		
+	}
+	
+	/**
+	 * 
+	 * @param resource: the CoapResource that to be added to coap server
+	 */
+	public void addResource(CoapResource resource) {
+		if (resource != null) {
+			if (_coapServer != null) {			
+				_coapServer.add(resource);
+			}
+		}
+	}
+	
+	/**
+	 * Start a COAP server
+	 */
+	public void start() {
+		if (_coapServer == null) {
+			_Logger.info("Creating CoAP server instance and 'temp' handler...");
+			initServer();
+		}
+		_Logger.info("Starting CoAP server...");
+		_coapServer.start();
+	}
+	
+	/**
+	 * Stop a COAP server
+	 */
+	public void stop() {
+		_coapServer.stop();
+	}
+}

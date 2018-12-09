@@ -1,0 +1,92 @@
+package gateway;
+
+import java.util.logging.Logger;
+
+import org.eclipse.californium.core.CoapResource;
+import org.eclipse.californium.core.coap.CoAP.ResponseCode;
+import org.eclipse.californium.core.server.resources.CoapExchange;
+
+
+import gateway.MqttClientConnector;
+
+public class TempResourceHandler extends CoapResource{
+
+	private static final Logger _Logger = Logger.getLogger(TempResourceHandler.class.getName());
+	
+	private String host 		= "things.ubidots.com";
+	private String userName 	= "A1E-721mX3ls51qGjNW8QS99keo1j3LlHk";
+	private String pemFileName  = "C:\\Users\\xuhaolin\\Desktop\\Connected Devices\\Semester Project\\ubidots_cert.pem";
+	
+	private MqttClientConnector _mqttclient = new MqttClientConnector(host, userName, null, pemFileName);
+	
+	/**
+	 * Default constructor.
+	 */
+	public TempResourceHandler() {
+		super("temp",true); // name of the handler, enable
+	}
+	
+	public TempResourceHandler(String name) {
+		super(name);
+	}
+	
+	@Override
+	public void handlePOST(CoapExchange exchange) {
+		
+		String resmsg = "Response to: " + super.getName();
+		
+		exchange.respond(ResponseCode.VALID,resmsg);
+		
+		System.out.println("Received POST response from the client.");
+		//ce.accept();
+		
+		_Logger.info(exchange.getRequestCode().toString() + ": " + exchange.getRequestText());
+		
+		if(_mqttclient != null) {
+			_mqttclient.publishMessage("/v1.6/devices/alexhandsome/tempsensor", 2, exchange.getRequestPayload());
+		}else {
+			_Logger.info("MQTT client doesn't exist.");
+		}
+		
+	
+	}
+	
+	@Override
+	public void handleGET(CoapExchange ce) {
+		
+		System.out.println("Received GET response from the client.");
+		
+		if(_mqttclient != null) {
+			String topic = ce.getRequestText();
+			
+			_mqttclient.subscribeToTopic(topic);
+			
+		}else {
+			_Logger.info("MQTT client doesn't exist.");
+		}
+		
+		_Logger.info(ce.getRequestCode().toString() + ": " + ce.getRequestText());
+	}
+	
+
+	
+	@Override
+	public void handleDELETE(CoapExchange ce) {
+		String resmsg = "Response to: " + super.getName();
+		ce.respond(ResponseCode.VALID,resmsg);
+		System.out.println("Received DELETE response from the client.");
+		delete();
+		
+		_Logger.info(ce.getRequestCode().toString() + ": " + ce.getRequestText());
+	}
+	
+	@Override
+	public void handlePUT(CoapExchange ce) {
+		String resmsg = "Response to: " + super.getName();
+		ce.respond(ResponseCode.VALID,resmsg);
+		System.out.println("Received PUT response from the client.");
+		changed();
+		
+		_Logger.info(ce.getRequestCode().toString() + ": " + ce.getRequestText());
+	}
+}

@@ -1,0 +1,72 @@
+import sys,os
+sys.path.append('/home/pi/workspace/iot-device/Lab1/iot-device/apps')
+import SmtpClientConnector
+from labs.common import SensorData
+from time import sleep
+from sense_hat import SenseHat
+from labs.common import ActuatorData
+from labs.module03.TempActuatorEmulator import TempActuatorEmulator
+
+class TempSensorAdaptor():
+    sh          = None
+    nominalaveragetemp = 0
+    sensorid    = 1
+    threshold   = 3 # NOTE: 2 or 3
+    sleepcycle  = 0
+    enableEmulator = False
+    isPrevTempSet  = False
+    
+
+    
+    connector = SmtpClientConnector.SmtpClientConnector()
+    sensordata = SensorData.SensorData() 
+    actuatordata = ActuatorData.ActuatorData()
+
+    
+    def __init__(self):
+        self.sh = SenseHat()
+        self.nominalaveragetemp = self.connector.nominalTemp
+        self.sleepcycle = self.connector.pollCycleSecs
+        self.enableEmulator = self.connector.enableEmulator
+    
+        
+    def run(self):
+        while True:
+            if self.enableEmulator:
+                
+                self.curTemp = self.sh.get_temperature()
+                self.sensordata.addValue(self.curTemp, 'Sensor'+str(self.sensorid))
+                self.sensorid += 1;
+
+                print('\n--------------------')
+                print('New sensor readings:')
+                print('  ' + str(self.sensordata))
+                print('  Current Temperature: '+ str(round(self.curTemp, 3)))
+                print('  Alert interval: [' + str(round(self.nominalaveragetemp - self.threshold,3))+ \
+                                            ',' + str(round(self.nominalaveragetemp + self.threshold,3)) + ']' )
+                print('  NominalTemp: ' + str(round(self.nominalaveragetemp,3)))
+            
+                if self.isPrevTempSet == False:
+                    self.prevTemp = self.curTemp
+                    self.isPrevTempSet = True
+                
+                if (abs(self.curTemp - self.nominalaveragetemp) > self.threshold):
+                        print('|Alert|  Current temperature exceeds safe range: ' 
+                              +str(round(abs(self.curTemp-self.nominalaveragetemp), 3))) 
+                        self.connector.publishMessage('Exceptional sensor data [test]', str(self.sensordata))
+                        print('         Data has been sent to a remote system.')
+                        
+                if(self.curTemp - self.nominalaveragetemp > 0):
+                    self.actuatordata.setCommand("Lower")
+                if(self.curTemp - self.nominalaveragetemp < 0):
+                    self.actuatordata.setCommand("Raise")
+                actuatoremulator = TempActuatorEmulator()
+                actuatoremulator.processMessage(self.actuatordata)
+                                  
+
+            sleep(self.sleepcycle)
+            
+            
+            
+            
+            

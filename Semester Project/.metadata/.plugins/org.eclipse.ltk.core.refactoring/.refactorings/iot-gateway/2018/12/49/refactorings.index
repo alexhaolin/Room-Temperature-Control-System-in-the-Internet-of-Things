@@ -1,0 +1,11 @@
+1543947109185	Rename resource 'App.java'
+1543955282705	Rename resource 'jar'
+1543963722116	Rename resource 'TempActuatorSubscriberApp.java'
+1543963755660	Rename type 'TempActuatorSubscriberApp'
+1543964531788	Rename field '_mqttClientConnector'
+1544243296795	Rename local variable 'ce'
+1544244043141	Rename type 'GatewayManagementApp'
+1544244166779	Rename field '_coapserverconnector'
+1544288382704	Delete element
+1544288385154	Delete element
+1544288392296	Delete element

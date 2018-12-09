@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jar.MqttClientConnector"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="jar.GatewayManagementApp"/>
+    <fullyQualifiedTypeName name="jar.CoapServerConnector"/>
+    <fullyQualifiedTypeName name="org.eclipse.paho.client.mqttv3.MqttCallback"/>
+    <fullyQualifiedTypeName name="org.eclipse.paho.client.mqttv3.MqttMessage"/>
+    <fullyQualifiedTypeName name="org.eclipse.paho.client.mqttv3.MqttException"/>
+    <fullyQualifiedTypeName name="gateway.CoapServerConnector"/>
+    <fullyQualifiedTypeName name="gateway.MqttClientConnector"/>
+</qualifiedTypeNameHistroy>

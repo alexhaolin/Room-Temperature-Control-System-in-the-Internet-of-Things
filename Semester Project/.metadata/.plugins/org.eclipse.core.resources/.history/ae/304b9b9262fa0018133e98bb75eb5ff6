@@ -1,0 +1,40 @@
+import sys,os
+sys.path.append('/home/pi/workspace/iot-device/Lab1/iot-device/apps')
+from app.common import ActuatorData
+from app.module03 import SenseHatLedActivator
+
+class TempActuatorEmulator(object):
+
+    actuatordata = ActuatorData.ActuatorData()
+    raisetemp = None
+    lowertemp = None
+
+    def __init__(self):
+        self.raisetemp = "Raise"
+        self.lowertemp = "Lower"
+        
+        
+    def processMessage(self, actuatordata):
+        if(actuatordata != self.actuatordata):
+            self.actuatordata = actuatordata
+            
+        if(self.actuatordata.getCommand() == self.raisetemp):
+            #send notification to GPIO
+            ledactivator = SenseHatLedActivator.SenseHatLedActivator()
+            ledactivator.setEnableLedFlag(True)
+            ledactivator.setDisplayMessage("Raise temperature.")
+            print('Please raise temperature.')
+            ledactivator.run()
+
+        if(self.actuatordata.getCommand() == self.lowertemp):
+            #send notification to GPIO
+            ledactivator = SenseHatLedActivator.SenseHatLedActivator()
+            ledactivator.setEnableLedFlag(True)
+            ledactivator.setDisplayMessage("Lower temperature.")
+            print('Please lower temperature.')
+            ledactivator.run()
+        
+    
+    
+        
+            

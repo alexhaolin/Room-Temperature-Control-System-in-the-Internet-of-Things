@@ -1,0 +1,7 @@
+1543865920781	Delete resource 'iot-device'
+1543939330889	Delete resource 'iot-gateway/src/main/java/jar/CoapClientConnector.java'
+1544214902993	Delete resource 'iot-device/app/lixing'
+1544216007310	Delete resource 'iot-device/app/module/MqttClient.py'
+1544221242384	Delete resource 'iot-gateway/src/main/java/gateway/GatewayMqttBroker.java'
+1544288508936	Delete resource 'iot-device/app/module/I2CSenseHatAdaptor.py'
+1544288527168	Delete resource 'iot-device/app/module/SensorReaderApp.py'

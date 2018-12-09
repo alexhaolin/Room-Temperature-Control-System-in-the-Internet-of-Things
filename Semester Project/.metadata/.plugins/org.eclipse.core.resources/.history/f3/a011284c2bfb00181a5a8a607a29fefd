@@ -1,0 +1,135 @@
+/**
+ * 
+ */
+package org.foobar.iot.module7;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.logging.Logger;
+
+import org.eclipse.californium.core.CoapResource;
+import org.eclipse.californium.core.coap.CoAP.ResponseCode;
+import org.eclipse.californium.core.server.resources.CoapExchange;
+import org.foobar.iot.module8.TempSensorPublisherApp;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/**
+ * @author xingli
+ *
+ */
+public class ResourceTemp extends CoapResource {
+	//static
+	private static final Logger _Logger = 
+			Logger.getLogger(ResourceTemp.class.getName());
+	
+	//constructors
+	public ResourceTemp() {
+		super("default");
+	}
+
+	/**
+	 * @param name
+	 */
+	public ResourceTemp(String name) {
+		super(name);
+	}
+
+	/**
+	 * @param name: the name of resource
+	 * @param visible: whether this resource is visible or not
+	 */
+	public ResourceTemp(String name, boolean visible) {
+		super(name, visible);
+	}
+	
+	//public methods
+	
+	@Override
+	public void handleGET(CoapExchange ce) {
+		//read temp from file, and return to client
+		String filePath = "/Users/xingli/Desktop/neu/class/2018fall/CSYE6530connectDevices/datafile/sensorData.txt";
+		File file = new File(filePath);
+		FileInputStream fileStream = null;
+		try {
+			fileStream = new FileInputStream(file);
+			int bytes  = fileStream.available();
+			byte[] data = new byte[bytes];
+			int count = fileStream.read(data);
+			for (int i = 0; i < bytes; i++) {
+				
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		String responseMsg =  "here is my response to:" + super.getName();
+		ce.respond(ResponseCode.VALID, responseMsg);
+		_Logger.info("Handling GET:" + responseMsg);
+		_Logger.info(ce.getRequestCode().toString() + ": " + ce.getRequestText());
+	}
+	
+	@Override
+	public void handlePOST(CoapExchange exchange) {
+		//read temp from file, and return to client	
+		String requestMsg = exchange.getRequestText();
+		String filePath = "/Users/xingli/Desktop/neu/class/2018fall/CSYE6530connectDevices/datafile/sensorData.txt";
+		File file = new File(filePath);
+	
+		try {
+			//save the data to local file
+			BufferedWriter out = new BufferedWriter(new FileWriter(file));
+			out.write(requestMsg + "\r\n");
+			out.flush();
+			out.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		String tempValue = "";
+		try {
+			JSONObject msgJson = new JSONObject(requestMsg);
+			if (!msgJson.isNull("value")) {
+				tempValue = msgJson.getString("value");
+			}
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		TempSensorPublisherApp tempSensorPublisherApp = new TempSensorPublisherApp();
+		tempSensorPublisherApp.publish(tempValue);
+		
+		
+		String responseMsg =  "here is my response to:" + super.getName();
+		exchange.respond(ResponseCode.VALID, responseMsg);
+		_Logger.info("Handling POST:" + responseMsg);
+		_Logger.info(exchange.getRequestCode().toString() + ": " + exchange.getRequestText());
+	}
+	
+	@Override
+	public void handlePUT(CoapExchange exchange) {
+		String responseMsg =  "here is my response to:" + super.getName();
+		exchange.respond(ResponseCode.VALID, responseMsg);
+		_Logger.info("Handling PUT:" + responseMsg);
+		_Logger.info(exchange.getRequestCode().toString() + ": " + exchange.getRequestText());
+	}
+	
+	@Override
+	public void handleDELETE(CoapExchange exchange) {
+		String responseMsg =  "here is my response to:" + super.getName();
+		exchange.respond(ResponseCode.VALID, responseMsg);
+		_Logger.info("Handling DELETE:" + responseMsg);
+		_Logger.info(exchange.getRequestCode().toString() + ": " + exchange.getRequestText());
+	}
+}

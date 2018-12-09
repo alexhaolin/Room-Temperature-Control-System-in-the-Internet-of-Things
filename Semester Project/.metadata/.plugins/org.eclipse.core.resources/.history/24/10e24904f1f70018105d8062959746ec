@@ -1,0 +1,10 @@
+package jar;
+
+
+public class GatewayManagementApp
+{
+    public static void main( String[] args )
+    {
+        
+    }
+}

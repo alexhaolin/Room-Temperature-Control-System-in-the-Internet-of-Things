@@ -1,0 +1,64 @@
+import sys,os
+from app.module.SmtpClientConnector import SmtpClientConnector
+sys.path.append('/home/pi/workspace/iot-device/Lab1/iot-device/apps')
+
+from time import sleep
+from app.common import SensorData
+from app.common.sense_hat import SenseHat
+from app.common import ActuatorData
+from app.module import TempActuatorEmulator,CoapClientConnector,SmtpClientConnector
+
+class TempSensorAdaptor():
+    sh          = None
+    nominalaveragetemp = 0
+    sensorid    = 1
+    threshold   = 3 # NOTE: 2 or 3
+    sleepcycle  = 0
+    enableEmulator = False
+    isPrevTempSet  = False
+    
+
+    
+    coapconn = CoapClientConnector.CoapClientConnector();
+    smtpconn = SmtpClientConnector.SmtpClientConnector();
+    sensordata = SensorData.SensorData() 
+#    actuatordata = ActuatorData.ActuatorData()
+
+    
+    def __init__(self):
+        self.sh = SenseHat()
+        self.sleepcycle = self.coapconn.pollCycleSecs
+        self.enableEmulator = self.coapconn.enableEmulator
+    
+        
+    def run(self):
+        while True:
+            if self.enableEmulator:
+                
+                self.curTemp = self.sh.get_temperature()
+                self.sensordata.addValue(self.curTemp, 'Sensor'+str(self.sensorid))
+                self.sensorid += 1;
+
+                print('\n--------------------')
+                print('New sensor readings:')
+                print('  ' + str(self.sensordata))
+                print('  Current Temperature: '+ str(round(self.curTemp, 3)))
+                
+                if self.isPrevTempSet == False:
+                    self.prevTemp = self.curTemp
+                    self.isPrevTempSet = True
+                
+                self.smtpconn.publishMessage('Current Temperature', self.curTemp)
+                
+                self.coapconn.handlePostTest(self.coapconn.url, self.curTemp)
+                
+                print('Data has been sent to your mail box and iot-gateway.')
+
+                                  
+
+            sleep(self.sleepcycle)
+            
+            
+            
+            
+            

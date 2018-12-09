@@ -1,0 +1,73 @@
+package gateway;
+
+import java.util.logging.Logger;
+
+import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
+import org.eclipse.paho.client.mqttv3.MqttCallback;
+import org.eclipse.paho.client.mqttv3.MqttMessage;
+
+public class GatewayMqttBroker implements MqttCallback {
+	
+	// static
+	private static final Logger _Logger =
+			Logger.getLogger(GatewayMqttBroker.class.getName());
+	
+	private static GatewayMqttBroker _actApp;
+
+	public static void main(String[] args) {
+		_actApp = new GatewayMqttBroker();
+		try {
+			_Logger.info("TempActuatorSubscriberApp starts.");
+			_actApp.start();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	// params
+	private String host 		= "things.ubidots.com";
+	private String userName 	= "A1E-721mX3ls51qGjNW8QS99keo1j3LlHk";
+	private String pemFileName  = "C:\\Users\\xuhaolin\\Desktop\\Connected Devices\\iot-device\\Lab1\\ubidots_cert.pem";
+	private MqttClientConnector _mqttSubClient;
+	private MqttClientConnector _mqttPubClient;
+	
+	
+	// constructors
+	/**
+	 * Default.
+	 */
+	public GatewayMqttBroker() {
+		super();
+	}
+	
+	// public 
+	
+	public void start() {
+		_mqttSubClient = new MqttClientConnector(host,
+				userName,null, pemFileName);
+		_mqttSubClient.connect();
+		String topic = "/v1.6/devices/alexhandsome/tempactuator";
+		
+		_mqttSubClient.subscribeToTopic(topic);
+
+		//_mqttClientConnector.disconnect();
+	}
+
+	public void connectionLost(Throwable cause) {
+        System.out.println("Connection lost because: " + cause);
+        System.exit(1);
+		
+	}
+
+	public void messageArrived(String topic, MqttMessage message) throws Exception {
+		_mqttPubClient = new MqttClientConnector(null,true);
+		_mqttPubClient.connect();
+		String pubtopic = "alexTempactuator";
+		_mqttPubClient.publishMessage(pubtopic, 2, message.getPayload());
+		
+	}
+
+	public void deliveryComplete(IMqttDeliveryToken token) {
+	}
+
+}

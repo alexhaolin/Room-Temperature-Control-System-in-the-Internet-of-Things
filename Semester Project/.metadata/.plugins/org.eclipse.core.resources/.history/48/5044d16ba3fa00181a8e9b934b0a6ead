@@ -1,0 +1,45 @@
+package gateway;
+
+import java.util.logging.Logger;
+
+public class GatewayManagementApp
+{
+	// static
+	private static final Logger _Logger = Logger.getLogger(CoapServerApp.class.getName());
+	private static CoapServerApp _App;
+	
+	/**
+	 * 
+	 * @param args
+	 */
+    public static void main( String[] args )
+    {
+        _App = new CoapServerApp();
+        try {
+        	_Logger.info("Coap Server starts.");
+        	_App.start();
+        }catch(Exception e) {
+        	e.printStackTrace();
+        }
+    }
+    
+    // private var's
+    private CoapServerConnector _coapserverconnector;
+    
+    // constructors
+    /**
+     * 
+     */
+    public GatewayManagementApp() {
+    	super();
+    }
+    
+    // public methods
+    /**
+     * 
+     */
+    public void start() {
+    	_coapserverconnector = new CoapServerConnector();
+    	_coapserverconnector.start();
+    }
+}

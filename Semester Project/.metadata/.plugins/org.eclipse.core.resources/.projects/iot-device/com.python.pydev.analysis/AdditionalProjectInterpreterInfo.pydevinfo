@@ -1,0 +1,631 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\.metadata\.plugins\org.eclipse.core.resources\.projects\iot-device\com.python.pydev.analysis\v2_indexcache
+coapthon.resources.remoteResource|1543943787268213000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resources\remoteResource.py
+coapthon.defines|1543943785037214000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\defines.py
+coapthon.messages.message|1543943786494017000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\messages\message.py
+app.common.sense_hat|1543868413541807000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\common\sense_hat.py
+coapthon.layers.observelayer|1543943786278552000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\observelayer.py
+coapthon.utils|1543943785208626000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\utils.py
+coapthon.messages.__init__|1543943786443004000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\messages\__init__.py
+coapthon.resource_directory.registration|1543943787097667000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\registration.py
+coapthon.transaction|1543943785153331000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\transaction.py
+coapthon.layers.requestlayer|1543943786334178000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\requestlayer.py
+coapthon.reverse_proxy.coap|1543943787430714000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\reverse_proxy\coap.py
+coapthon.messages.option|1543943786544477000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\messages\option.py
+coapthon.resource_directory.rdrequestlayer|1543943787046835000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\rdrequestlayer.py
+app.module.TempSensorAdaptor|1544289811346419000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\TempSensorAdaptor.py
+app.common.SensorData|1544303429455047000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\common\SensorData.py
+coapthon.caching.__init__|1543943785277604000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\caching\__init__.py
+coapthon.resources.resource|1543943787323066000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resources\resource.py
+coapthon.layers.__init__|1543943786015380000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\__init__.py
+coapthon.client.__init__|1543943785525083000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\client\__init__.py
+coapthon.resource_directory.lookupRes|1543943786992657000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\lookupRes.py
+coapthon.messages.request|1543943786597577000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\messages\request.py
+coapthon.caching.cache|1543943785345424000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\caching\cache.py
+coapthon.messages.response|1543943786654639000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\messages\response.py
+coapthon.resources.__init__|1543943787214354000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resources\__init__.py
+coapthon.caching.coaplrucache|1543943785468002000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\caching\coaplrucache.py
+app.common.ConfigUtil|1544303429432901000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\common\ConfigUtil.py
+app.module.SmtpClientConnector|1543946781751642000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\SmtpClientConnector.py
+coapthon.caching.coapcache|1543943785412243000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\caching\coapcache.py
+app.module.CoapClientConnector|1543946941257518000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\CoapClientConnector.py
+coapthon.server.__init__|1543943787485812000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\server\__init__.py
+app.module.TempActuatorEmulator|1544288296921335000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\TempActuatorEmulator.py
+coapthon.http_proxy.coap_http_proxy|1543943785864781000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\http_proxy\coap_http_proxy.py
+coapthon.forward_proxy.coap|1543943785749264000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\forward_proxy\coap.py
+coapthon.__init__|1540888012000000000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\__init__.py
+coapthon.client.coap|1543943785580839000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\client\coap.py
+app.__init__|1544200643237148000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\__init__.py
+coapthon.http_proxy.__init__|1543943785804699000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\http_proxy\__init__.py
+coapthon.resource_directory.lookupEp|1543943786929824000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\lookupEp.py
+coapthon.layers.blocklayer|1543943786069249000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\blocklayer.py
+coapthon.resource_directory.__init__|1543943786714002000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\__init__.py
+app.common.ActuatorData|1544303429354644000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\common\ActuatorData.py
+coapthon.layers.cachelayer|1543943786121188000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\cachelayer.py
+coapthon.resource_directory.lookup|1543943786870028000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\lookup.py
+coapthon.layers.messagelayer|1543943786226051000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\messagelayer.py
+coapthon.http_proxy.http_coap_proxy|1543943785939582000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\http_proxy\http_coap_proxy.py
+coapthon.resource_directory.resourceDirectory|1543943787152519000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\resourceDirectory.py
+coapthon.layers.resourcelayer|1543943786388074000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\resourcelayer.py
+coapthon.resource_directory.coap|1543943786765188000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\coap.py
+coapthon.server.coap|1543943787533769000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\server\coap.py
+coapthon.serializer|1543943785097123000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\serializer.py
+app.module.SimpleLedActivator|1544216097644679000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\SimpleLedActivator.py
+coapthon.reverse_proxy.__init__|1543943787383279000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\reverse_proxy\__init__.py
+coapthon.client.helperclient|1543943785637619000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\client\helperclient.py
+app.common.ConfigConst|1544303429415481000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\common\ConfigConst.py
+app.module.DeviceManagementApp|1543867424341987000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\DeviceManagementApp.py
+coapthon.forward_proxy.__init__|1543943785694769000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\forward_proxy\__init__.py
+app.module.SenseHatLedActivator|1544216097635703000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\SenseHatLedActivator.py
+coapthon.layers.forwardLayer|1543943786173227000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\forwardLayer.py
+app.module.MqttActuatorDataReceiver|1544289812642064000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\MqttActuatorDataReceiver.py
+coapthon.resource_directory.databaseManager|1543943786815732000|C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\databaseManager.py
+-- END DISKCACHE
+-- START DICTIONARY
+267
+138=CoapLRUCache
+204=ForwardLayer.__init__
+164=Message.__init__
+264=Tree.__init__
+267=ActuatorData.setValue
+220=CacheElement.__init__
+167=Message.timeouted
+165=Message.acknowledged
+187=Resource.max_age
+205=Message.source
+17=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resources\resource.py
+35=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\server\coap.py
+179=Transaction.completed
+14=coapthon.transaction
+206=Transaction.timestamp
+185=CacheKey.__init__
+211=Message.version
+263=ActuatorData.updateTimeStamp
+18=coapthon.resources.resource
+94=coapthon.caching.__init__
+219=Cache.__init__
+261=ActuatorData.setStateData
+229=CHProxy.__init__
+192=Resource.observe_count
+244=ActuatorData.setErrorCode
+52=coapthon.messages.response
+260=ActuatorData.setStatusCode
+9=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\__init__.py
+39=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\client\__init__.py
+55=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\client\coap.py
+19=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\cachelayer.py
+23=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\forward_proxy\__init__.py
+59=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\registration.py
+181=MessageLayer.__init__
+98=app.common.ConfigUtil
+188=ReverseCacheKey.__init__
+265=Request.uri_path
+233=ActuatorData.updateData
+221=CoapCache.__init__
+142=ReverseCacheKey
+150=CoapCache
+10=coapthon.__init__
+154=RequestLayer
+254=HelperClient.__init__
+234=Registration.__init__
+8=coapthon.resource_directory.lookupEp
+29=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\coap.py
+162=BlockItem
+92=app.common.ActuatorData
+183=Resource.deleted
+33=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\messages\request.py
+172=Transaction.__init__
+262=SensorData.__init__
+36=coapthon.server.coap
+32=coapthon.serializer
+99=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\MqttActuatorDataReceiver.py
+144=DatabaseManager
+258=SenseHat.set_rotation
+126=SensorData
+238=LookupRes.__init__
+227=HCProxyHandler.do_initial_operations
+245=CoAP_HTTP
+2=app.common.ConfigConst
+3=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\lookupRes.py
+102=app.module.SenseHatLedActivator
+101=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\SenseHatLedActivator.py
+178=Message.pretty_print
+226=HCProxyHandler
+184=Message.duplicated
+151=CacheLayer
+83=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\client\helperclient.py
+78=coapthon.resources.remoteResource
+42=coapthon.defines
+58=coapthon.messages.message
+106=app.common.sense_hat
+156=CoapUri
+163=BlockLayer
+255=SenseHatLedActivator.__init__
+79=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\caching\coapcache.py
+189=Message.mid
+60=coapthon.resource_directory.registration
+209=Message.type
+115=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\DeviceManagementApp.py
+122=_RequestContext
+208=Message.token
+7=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\lookupEp.py
+31=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\serializer.py
+114=app.module.TempSensorAdaptor
+214=Serializer
+125=SimpleLedActivator
+47=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\forward_proxy\coap.py
+109=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\SmtpClientConnector.py
+38=coapthon.layers.__init__
+124=LookupRes
+250=TempActuatorEmulator.__init__
+170=CoAP.__init__
+256=SimpleLedActivator.__init__
+145=CHProxy
+218=CacheLayer.__init__
+1=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\common\ConfigConst.py
+194=ResourceLayer.__init__
+251=ResourceDirectory.__init__
+158=SenseHatLedActivator
+173=Transaction.block_transfer
+110=app.module.SmtpClientConnector
+96=app.module.CoapClientConnector
+139=Cache
+85=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\http_proxy\http_coap_proxy.py
+249=Resource.edit_resource
+149=RemoteResource
+171=BlockLayer.__init__
+48=coapthon.forward_proxy.coap
+89=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\__init__.py
+56=coapthon.client.coap
+123=HelperClient
+70=coapthon.layers.blocklayer
+223=_RequestContext.__init__
+191=Option.number
+75=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\requestlayer.py
+90=coapthon.resource_directory.__init__
+45=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\rdrequestlayer.py
+169=Resource.attributes
+30=coapthon.resource_directory.coap
+108=app.module.SimpleLedActivator
+12=coapthon.reverse_proxy.__init__
+134=ConfigUtil
+202=RdRequestLayer.__init__
+247=ConfigUtil.loadConfig
+159=Request
+153=ActuatorData
+230=HCProxy.__init__
+147=OptionRegistry
+135=ObserveItem
+51=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\messages\response.py
+242=SimpleLedActivator.setEnableLedFlag
+95=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\CoapClientConnector.py
+130=TempSensorAdaptor
+81=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\databaseManager.py
+127=SmtpClientConnector
+177=Message.line_print
+25=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\resourcelayer.py
+228=HCProxyHandler.set_coap_uri
+259=SensorData._init_
+15=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\observelayer.py
+16=coapthon.layers.observelayer
+103=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\common\SensorData.py
+22=coapthon.messages.__init__
+105=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\common\sense_hat.py
+68=coapthon.messages.option
+46=coapthon.resource_directory.rdrequestlayer
+199=Transaction.request
+253=SensorData.setName
+143=SenseHat
+236=LookupEp.__init__
+232=ActuatorData.setCommand
+4=coapthon.resource_directory.lookupRes
+40=coapthon.client.__init__
+201=ObserveLayer.__init__
+64=coapthon.caching.cache
+77=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resources\remoteResource.py
+65=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\messagelayer.py
+6=coapthon.resources.__init__
+210=Option.value
+148=ResourceLayer
+54=coapthon.caching.coaplrucache
+241=SenseHatLedActivator.setEnableLedFlag
+61=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\forwardLayer.py
+266=CoapUri.__init__
+80=coapthon.caching.coapcache
+74=coapthon.server.__init__
+252=ActuatorData.setName
+49=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\lookup.py
+168=Resource.__init__
+27=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\utils.py
+246=InvalidResponseCode.__init__
+231=DatabaseManager.__init__
+222=CoapLRUCache.__init__
+186=Resource.location_query
+237=ConfigUtil.__init__
+21=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\messages\__init__.py
+66=coapthon.layers.messagelayer
+86=coapthon.http_proxy.http_coap_proxy
+97=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\common\ConfigUtil.py
+88=coapthon.resource_directory.resourceDirectory
+53=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\caching\coaplrucache.py
+26=coapthon.layers.resourcelayer
+43=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\http_proxy\coap_http_proxy.py
+161=InvalidResponseCode
+174=Resource.changed
+190=Option.__init__
+207=Message.timestamp
+175=Resource.actual_content_type
+67=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\messages\option.py
+195=Message.payload
+84=coapthon.client.helperclient
+116=app.module.DeviceManagementApp
+37=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\__init__.py
+257=RemoteResource.__init__
+62=coapthon.layers.forwardLayer
+196=Resource.payload
+140=CacheElement
+100=app.module.MqttActuatorDataReceiver
+73=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\server\__init__.py
+155=HCProxy
+91=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\common\ActuatorData.py
+87=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resource_directory\resourceDirectory.py
+131=TempActuatorEmulator
+13=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\transaction.py
+28=coapthon.utils
+72=coapthon.reverse_proxy.coap
+76=coapthon.layers.requestlayer
+137=Registration
+180=CoAP.current_mid
+117=Tree
+160=Lookup
+128=CoAP
+141=CacheKey
+243=TempSensorAdaptor.__init__
+104=app.common.SensorData
+132=MessageLayer
+240=SenseHatLedActivator.setDisplayMessage
+197=Transaction.resource
+200=CoAP.send_datagram
+34=coapthon.messages.request
+120=Resource
+11=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\reverse_proxy\__init__.py
+118=Transaction
+107=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\SimpleLedActivator.py
+133=ForwardLayer
+119=Option
+215=SensorData.addValue
+112=app.module.TempActuatorEmulator
+44=coapthon.http_proxy.coap_http_proxy
+136=ObserveLayer
+146=Message
+69=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\layers\blocklayer.py
+63=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\caching\cache.py
+5=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\resources\__init__.py
+213=ObserveItem.__init__
+193=Message.options
+203=RequestLayer.__init__
+198=Transaction.response
+20=coapthon.layers.cachelayer
+50=coapthon.resource_directory.lookup
+157=LookupEp
+121=CoapClientConnector
+41=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\defines.py
+57=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\messages\message.py
+212=TempActuatorEmulator.processMessage
+239=TempSensorAdaptor.run
+224=SenseHat.clear
+182=Message.destination
+216=Codes
+166=Message.rejected
+93=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\caching\__init__.py
+129=RdRequestLayer
+113=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\TempSensorAdaptor.py
+24=coapthon.forward_proxy.__init__
+248=Response
+235=CoapClientConnector.__init__
+152=ResourceDirectory
+71=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\coapthon\reverse_proxy\coap.py
+217=BlockItem.__init__
+225=CoapClientConnector.initClient
+111=C:\Users\xuhaolin\Desktop\Connected Devices\Semester Project\iot-device\app\module\TempActuatorEmulator.py
+176=Message.code
+82=coapthon.resource_directory.databaseManager
+-- END DICTIONARY
+-- START TREE 1
+97
+NB|1|NB!1^16#1*19@
+__a|44|__author__!3^5#1*35@__author__!5^1#1*51@__author__!7^5#1*67@__author__!9^1#1*83@__author__!11^1#1*99@__author__!13^3#1*115@__author__!15^5#1*131@__author__!17^3#1*147@__author__!19^7#1*163@__author__!21^1#1*179@__author__!23^1#1*195@__author__!25^5#1*211@__author__!27^4#1*227@__author__!29^24#1*243@__author__!31^10#1*259@__author__!33^5#1*275@__author__!35^23#1*291@__author__!37^1#1*307@__author__!39^1#1*323@__author__!41^5#1*339@__author__!43^12#1*355@__author__!45^4#1*371@__author__!47^22#1*387@__author__!49^3#1*403@__author__!51^5#1*419@__author__!53^6#1*435@__author__!55^20#1*451@__author__!57^5#1*467@__author__!59^5#1*483@__author__!61^9#1*499@__author__!63^9#1*515@__author__!65^9#1*531@__author__!67^4#1*547@__author__!69^8#1*563@__author__!71^26#1*579@__author__!73^1#1*595@__author__!75^4#1*611@__author__!77^3#1*627@__author__!79^1#1*643@__author__!81^12#1*659@__author__!83^9#1*675@__author__!85^12#1*691@__author__!87^9#1*707@__author__!89^1#1*723@
+__e|2|__email__!85^13#1*691@__email__!43^13#1*355@
+_re|1|_RequestContext!83^11#7*673@
+acc|0|
+ack|2|ACK_RANDOM_FACTOR!41^13#1*339@ACK_TIMEOUT!41^9#1*339@
+act|1|ActuatorData!91^17#7*737@
+all|2|ALL_COAP_NODES!41^29#1*339@ALL_COAP_NODES_IPV6!41^31#1*339@
+arg|2|args!85^281#5*691@args!43^223#5*355@
+aut|1|author!93^1#1*755@
+bad|1|BAD_REQUEST!41^307#1*339@
+beg|0|
+blo|3|BLOCKWISE_SIZE!41^37#1*339@BlockItem!69^11#7*561@BlockLayer!69^31#7*561@
+byt|1|byte_len!27^87#5*226@
+cac|4|CacheElement!63^148#7*513@Cache!63^14#7*513@CacheKey!63^173#7*513@CacheLayer!19^12#7*161@
+ch_|2|ch_proxy!43^224#5*355@ch_path!43^17#1*355@
+che|2|check_nocachekey!27^7#5*226@check_code!27^17#5*226@
+chp|1|CHProxy!43^23#7*353@
+clo|6|CLOUD_MQTT_BROKER!1^27#1*19@CLOUD_API_KEY!1^26#1*19@CLOUD_COAP_PORT!1^30#1*19@CLOUD_COAP_HOST!1^29#1*19@CLOUD!1^5#1*19@CLOUD_MQTT_PORT!1^28#1*19@
+coa|17|CoapClientConnector!95^6#7*769@CoAP!47^31#7*385@CoAP_HTTP!41^333#1*339@CoAP!55^30#7*449@CoapCache!79^4#7*641@COAP!1^7#1*19@CoapLRUCache!53^11#7*433@COAP_DEFAULT_PORT!41^304#1*339@COAP_GATEWAY_SECTION!1^20#1*19@CoAP_HTTP!43^73#7*353@COAP_PREFACE!41^301#1*339@COAP_CLOUD_SECTION!1^18#1*19@CoAP!71^36#7*577@COAP_DEVICE_SECTION!1^22#1*19@CoapUri!85^70#7*689@CoAP!29^34#7*241@CoAP!35^33#7*289@
+cod|3|Codes!41^221#7*337@CODE_BITS!41^83#1*339@CodeItem!41^218#1*339@
+com|4|COMMAND_SET!91^8#1*739@COMMAND_OFF!91^6#1*739@COMMAND_RESET!91^9#1*739@COMMAND_ON!91^7#1*739@
+con|3|ConfigUtil!97^6#7*785@CONSTRAINED_DEVICE!1^10#1*19@Content_types!41^299#1*339@
+cor|1|corelinkformat!41^118#1*339@
+cre|1|create_logging!27^128#5*226@
+dat|1|DatabaseManager!81^15#7*657@
+def|5|DEFAULT_CH_PATH!41^306#1*339@DEFAULT_CONFIG_FILE!97^10#1*787@Default_CONFIG_FILE!97^4#1*787@DEFAULT_HC_PATH!41^305#1*339@DEFAULT_CONFIG_FILE_NAME!1^2#1*19@
+dev|1|DEVICE!1^12#1*19@
+dis|1|DISCOVERY_URL!41^27#1*339@
+ena|4|ENABLE_CRYPT_KEY!1^49#1*19@ENABLE_AUTH_KEY!1^48#1*19@ENABLE_EMULATOR_KEY!1^50#1*19@ENABLE_LOGGING_KEY!1^51#1*19@
+err|3|ERROR_NON_RESPONSIBLE!91^16#1*739@ERROR_COMMAND_FAILED!91^15#1*739@ERROR_OK!91^14#1*739@
+exc|1|EXCHANGE_LIFETIME!41^25#1*339@
+for|2|ForwardLayer!61^12#7*497@FORWARD_PROXY!41^130#1*339@
+fro|1|FROM_ADDRESS_KEY!1^33#1*19@
+gat|1|GATEWAY_DEVICE!1^9#1*19@
+gen|1|generate_random_token!27^53#5*226@
+get|2|get_command_line_args!43^211#5*354@get_command_line_args!85^267#5*690@
+hc_|3|HC_PROXY_DEFAULT_PORT!41^303#1*339@hc_path!85^17#1*691@hc_proxy!85^282#5*691@
+hcp|2|HCProxy!85^22#7*689@HCProxyHandler!85^101#7*689@
+hel|1|HelperClient!83^20#7*673@
+hos|1|HOST_KEY!1^39#1*19@
+hum|0|
+i2c|0|
+int|1|INTEGER!41^121#1*339@
+inv|1|InvalidResponseCode!27^36#7*225@
+is_|1|is_uri_option!27^41#5*226@
+loc|1|LOCALHOST!41^302#1*339@
+log|15|logger!19^9#1*163@logger!43^15#1*355@logger!85^15#1*691@logger!71^32#1*579@logger!63^11#1*515@logger!47^27#1*387@logger!53^8#1*435@logger!81^10#1*659@logger!35^29#1*291@logger!55^26#1*451@logger!31^12#1*259@logger!15^7#1*131@logger!69^6#1*563@logger!65^11#1*531@logger!29^30#1*243@
+loo|3|LookupRes!3^8#7*33@Lookup!49^6#7*401@LookupEp!7^8#7*65@
+mag|0|
+max|6|MAX_LATENCY!41^19#1*339@MAX_RTT!41^23#1*339@MAX_NON_NOTIFICATIONS!41^35#1*339@MAX_PAYLOAD!41^33#1*339@MAX_RETRANSMIT!41^15#1*339@MAX_TRANSMIT_SPAN!41^17#1*339@
+mc|1|mc!99^27#1*803@
+mes|3|MessageLayer!65^23#7*529@Message!57^8#7*465@MESSAGE_ID_BITS!41^86#1*339@
+mon|6|MONGO_DATABASE!41^63#1*339@MONGO_USER!41^65#1*339@MONGO_HOST!41^59#1*339@MONGO_CONFIG_FILE!41^69#1*339@MONGO_PORT!41^61#1*339@MONGO_PWD!41^67#1*339@
+mqt|4|MQTT_CLOUD_SECTION!1^17#1*19@MQTT_GATEWAY_SECTION!1^19#1*19@MQTT_DEVICE_SECTION!1^21#1*19@MQTT!1^6#1*19@
+nod|1|NODE_RESOURCE_SCHEMA_PATH!41^55#1*339@
+nom|1|NOMINAL_TEMP_KEY!1^53#1*19@
+not|1|NOT_IMPLEMENTED!41^308#1*339@
+obs|2|ObserveLayer!15^26#7*129@ObserveItem!15^10#7*129@
+on_|2|on_connect!99^10#5*802@on_message!99^14#5*802@
+opa|1|OPAQUE!41^125#1*339@
+opt|5|OPTION_DELTA_BITS!41^89#1*339@Option!67^7#7*545@OPTION_LENGTH_BITS!41^92#1*339@OptionItem!41^133#1*339@OptionRegistry!41^136#7*337@
+par|2|parse_uri!27^106#5*226@parse_blockwise!27^57#5*226@
+pay|1|PAYLOAD_MARKER!41^95#1*339@
+pol|1|POLL_CYCLES_KEY!1^52#1*19@
+por|1|PORT_KEY!1^40#1*19@
+pre|0|
+pro|1|PROCESSING_DELAY!41^21#1*339@
+rat|0|
+rd_|2|RD_HOST!41^41#1*339@RD_PORT!41^43#1*339@
+rdr|1|RdRequestLayer!45^7#7*369@
+reg|1|Registration!59^8#7*481@
+rem|1|RemoteResource!77^6#7*625@
+req|4|REQUEST_CODE_LOWER_BOUND!41^101#1*339@RequestLayer!75^7#7*609@REQUEST_CODE_UPPER_BOUND!41^104#1*339@Request!33^8#7*273@
+res|6|RESPONSE_CODE_UPPER_BOUND!41^110#1*339@Response!51^8#7*417@Resource!17^6#7*145@ResourceDirectory!87^12#7*705@ResourceLayer!25^8#7*209@RESPONSE_CODE_LOWER_BOUND!41^107#1*339@
+rev|2|REVERSE_PROXY!41^131#1*339@ReverseCacheKey!63^213#7*513@
+sec|2|SECTION_SEPARATOR!1^1#1*19@SECURE_PORT_KEY!1^41#1*19@
+sen|3|SenseHatLedActivator!101^5#7*817@SensorData!103^4#7*833@SenseHat!105^4#7*849@
+sep|1|SEPARATE_TIMEOUT!41^11#1*339@
+ser|4|SERIAL_BAUDRATE!41^49#1*339@SERIAL_PARAMETER_SCHEMA_PATH!41^53#1*339@SERIAL_PORT!41^47#1*339@Serializer!31^15#7*257@
+sim|1|SimpleLedActivator!107^10#7*865@
+smt|3|SmtpClientConnector!109^7#7*881@SMTP!1^8#1*19@SMTP_CLOUD_SECTION!1^16#1*19@
+sta|2|STATUS_ACTIVE!91^12#1*739@STATUS_IDLE!91^11#1*739@
+str|2|str_append_hash!65^14#5*530@STRING!41^123#1*339@
+sys|0|
+tem|2|TempActuatorEmulator!111^6#7*897@TempSensorAdaptor!113^11#7*913@
+tes|1|test!115^9#1*931@
+to_|3|TO_TXT_ADDRESS_KEY!1^36#1*19@TO_MEDIA_ADDRESS_KEY!1^35#1*19@TO_ADDRESS_KEY!1^34#1*19@
+tok|1|TOKEN_LENGTH_BITS!41^80#1*339@
+tot|0|
+tra|1|Transaction!13^6#7*113@
+tre|1|Tree!27^149#7*225@
+typ|2|TYPE_BITS!41^77#1*339@Types!41^216#1*339@
+ubi|2|UBIDOTS!1^11#1*19@UBIDOTS_CLOUD_SECTION!1^15#1*19@
+unk|1|UNKNOWN!41^127#1*339@
+use|2|USER_AUTH_TOKEN_KEY!1^45#1*19@USER_NAME_TOKEN_KEY!1^44#1*19@
+ver|2|VERSION_BITS!41^74#1*339@VERSION!41^98#1*339@
+-- END TREE
+-- START TREE 2
+194
+__d|1|__delitem__!117&27^187#9*226@
+__e|3|__exit__!118&13^37#9*114@__eq__!119&67^118#9*546@__enter__!118&13^34#9*114@
+__g|1|__getitem__!117&27^181#9*226@
+__i|51|__init__!120&17^10#9*146@__init__!121&95^15#9*770@__init__!122&83^12#9*674@__init__!123&83^24#9*674@__init__!124&3^12#9*34@__init__!125&107^14#9*866@__init__!126&103^20#9*834@__init__!127&109^13#9*882@__init__!128&35^37#9*290@__init__!129&45^11#9*370@__init__!130&113^28#9*914@__init__!131&111^12#9*898@__init__!132&65^27#9*530@__init__!133&61^16#9*498@__init__!134&97^11#9*786@__init__!135&15^11#9*130@__init__!136&15^30#9*130@__init__!137&59^12#9*482@__init__!138&53^12#9*434@__init__!139&63^16#9*514@__init__!140&63^149#9*514@__init__!141&63^174#9*514@__init__!142&63^214#9*514@__init__!128&47^35#9*386@__init__!143&105^8#9*850@__init__!144&81^21#9*658@__init__!145&43^32#9*354@__init__!128&55^34#9*450@__init__!146&57^12#9*466@__init__!147&41^140#9*338@__init__!119&67^11#9*546@__init__!148&25^12#9*210@__init__!149&77^7#9*626@__init__!150&79^5#9*642@__init__!151&19^14#9*162@__init__!152&87^16#9*706@__init__!118&13^10#9*114@__init__!153&91^26#9*738@__init__!154&75^11#9*610@__init__!128&29^38#9*242@__init__!155&85^30#9*690@__init__!156&85^72#9*690@__init__!157&7^12#9*66@__init__!128&71^40#9*578@__init__!158&101^12#9*818@__init__!159&33^12#9*274@__init__!160&49^10#9*402@__init__!161&27^37#9*226@__init__!117&27^150#9*226@__init__!162&69^12#9*562@__init__!163&69^35#9*562@
+__s|10|__str__!153&91^67#9*738@__str__!138&53^61#9*434@__str__!126&103^49#9*834@__str__!140&63^163#9*514@__str__!141&63^202#9*514@__str__!142&63^238#9*514@__str__!119&67^109#9*546@__str__!146&57^670#9*466@__setitem__!117&27^184#9*226@__str__!156&85^97#9*690@
+_ac|4|_acknowledged!164&57^24#9*467@_acknowledged!165&57^271#9*467@_acknowledged!166&57^298#13*467@_acknowledged!167&57^323#13*467@
+_al|2|_already_in!146&57^364#9*466@_allow_children!168&17^37#9*147@
+_at|2|_attributes!168&17^21#9*147@_attributes!169&17^215#9*147@
+_bl|11|_blockLayer!170&71^58#9*579@_blockLayer!170&47^53#9*387@_block2_sent!171&69^37#9*563@_block1_receive!171&69^38#9*563@_blockLayer!170&35^54#9*291@_blockLayer!170&55^54#9*451@_block_transfer!172&13^24#9*115@_block_transfer!173&13^156#9*115@_blockLayer!170&29^55#9*243@_block1_sent!171&69^36#9*563@_block2_receive!171&69^39#9*563@
+_ca|7|_callback!170&55^47#9*451@_cancelled!164&57^27#9*467@_cancelled!165&57^275#13*467@_cancelled!166&57^299#13*467@_cancelled!167&57^325#13*467@_cacheLayer!170&47^57#13*387@_cacheLayer!170&71^65#13*579@
+_cb|4|_cb_ignore_write_exception!170&55^49#9*451@_cb_ignore_read_exception!170&55^48#9*451@_cb_ignore_listen_exception!170&29^69#9*243@_cb_ignore_listen_exception!170&35^68#9*291@
+_ch|2|_changed!168&17^55#9*147@_changed!174&17^95#9*147@
+_co|9|_content_type!168&17^43#9*147@_content_type!175&17^279#9*147@_code!164&57^23#9*467@_code!176&57^251#9*467@_code!177&57^652#13*467@_code!178&57^685#13*467@_completed!172&13^23#9*115@_completed!179&13^136#9*115@_coap_server!168&17^51#9*147@
+_cu|3|_currentMID!170&55^45#9*451@_currentMID!180&55^108#9*451@_current_mid!181&65^36#13*531@
+_de|4|_destination!164&57^21#9*467@_destination!182&57^205#9*467@_deleted!168&17^53#9*147@_deleted!183&17^75#9*147@
+_du|2|_duplicated!164&57^28#9*467@_duplicated!184&57^345#9*467@
+_et|1|_etag!168&17^45#9*147@
+_fo|3|_forwardLayer!170&47^61#9*387@_forward_request!133&61^75#9*498@_forwardLayer!170&71^61#9*579@
+_ha|12|_handle_delete!154&75^117#9*610@_handle_separate_advanced!148&25^337#9*210@_handle_delete!129&45^121#9*370@_handle_response!151&19^72#9*162@_handle_put!154&75^74#9*610@_handle_post!154&75^99#9*610@_handle_separate!148&25^329#9*210@_handle_put!129&45^76#9*370@_handle_post!129&45^101#9*370@_handle_get!154&75^46#9*610@_handle_get!129&45^46#9*370@_handle_request!133&61^113#9*498@
+_in|1|_init_!126&103^14#9*834@
+_li|1|_list!185&63^197#9*515@
+_lo|3|_location_query!168&17^47#9*147@_location_query!186&17^134#9*147@_lock!172&13^29#9*115@
+_ma|3|_max_age!168&17^49#9*147@_max_age!187&17^160#9*147@_mapping!170&71^79#9*579@
+_me|7|_method!185&63^181#9*515@_method!188&63^220#9*515@_messageLayer!170&47^52#9*387@_messageLayer!170&71^57#9*579@_messageLayer!170&55^53#9*451@_messageLayer!170&35^53#9*291@_messageLayer!170&29^54#9*243@
+_mi|2|_mid!164&57^17#9*467@_mid!189&57^95#9*467@
+_nu|2|_number!190&67^15#9*547@_number!191&67^35#9*547@
+_ob|8|_observeLayer!170&47^54#9*387@_observeLayer!170&29^56#9*243@_observable!168&17^33#9*147@_observeLayer!170&71^59#9*579@_observeLayer!170&35^55#9*291@_observeLayer!170&55^55#9*451@_observe_count!168&17^39#9*147@_observe_count!192&17^261#9*147@
+_op|4|_options!185&63^187#9*515@_options!188&63^226#9*515@_options!164&57^19#9*467@_options!193&57^159#9*467@
+_pa|7|_payload!185&63^180#9*515@_payload!188&63^219#9*515@_parent!194&25^19#9*211@_payload!164&57^20#9*467@_payload!195&57^180#13*467@_payload!168&17^41#9*147@_payload!196&17^196#13*147@
+_re|21|_retransmit!128&47^299#9*386@_resource!172&13^21#9*115@_resource!197&13^98#9*115@_retransmit!128&71^411#9*578@_retransmit!128&29^340#9*242@_response!172&13^19#9*115@_request!172&13^20#9*115@_response!198&13^58#9*115@_request!199&13^78#9*115@_retransmit!128&55^207#9*450@_requestLayer!170&29^57#9*243@_receiver_thread!170&55^71#9*451@_receiver_thread!200&55^185#13*451@_requestLayer!170&35^56#9*291@_retransmit!128&35^333#9*290@_requestLayer!170&55^56#9*451@_relations!201&15^31#9*131@_rejected!164&57^25#9*467@_rejected!165&57^274#13*467@_rejected!166&57^295#9*467@_rejected!167&57^324#13*467@
+_se|15|_server!170&55^46#9*451@_send_ack!128&55^308#9*450@_send_ack!128&47^353#9*386@_serializer!170&29^65#9*243@_server!202&45^12#9*371@_send_rst!128&55^322#9*450@_send_block_request!128&55^152#9*450@_serializer!170&35^64#9*291@_server!203&75^12#9*611@_send_ack!128&35^388#9*290@_server!204&61^17#9*499@_send_ack!128&71^465#9*578@_send_ack!128&29^395#9*242@_serializer!170&47^69#9*387@_serializer!170&71^74#9*579@
+_so|7|_socket!170&47^79#13*387@_source!164&57^22#9*467@_source!205&57^228#9*467@_socket!170&71^86#13*579@_socket!170&55^61#13*451@_socket!170&29^81#13*243@_socket!170&35^75#13*291@
+_st|13|_start_retransmission!128&35^315#9*290@_start_separate_timer!128&35^367#9*290@_start_separate_timer!128&71^444#9*578@_stop_separate_timer!128&29^387#9*242@_stop_separate_timer!128&35^380#9*290@_start_retransmission!128&55^188#9*450@_start_separate_timer!128&47^332#9*386@_start_retransmission!128&47^281#9*386@_start_retrasmission!128&71^393#9*578@_stop_separate_timer!128&47^345#9*386@_start_retransmission!128&29^322#9*242@_start_separate_timer!128&29^374#9*242@_stop_separate_timer!128&71^457#9*578@
+_ti|8|_timeouted!164&57^26#9*467@_timeouted!165&57^273#13*467@_timeouted!166&57^297#13*467@_timeouted!167&57^321#9*467@_timestamp!172&13^22#9*115@_timestamp!206&13^116#9*115@_timestamp!164&57^29#9*467@_timestamp!207&57^362#9*467@
+_to|2|_token!164&57^18#9*467@_token!208&57^123#13*467@
+_tr|2|_transactions_token!181&65^34#9*531@_transactions!181&65^33#9*531@
+_ty|2|_type!164&57^16#9*467@_type!209&57^73#9*467@
+_un|4|_unicast_socket!170&35^93#17*291@_unicast_socket!170&29^99#17*243@_unicast_socket!170&47^97#17*387@_unicast_socket!170&71^104#17*579@
+_va|2|_value!190&67^16#9*547@_value!210&67^45#13*547@
+_ve|2|_version!164&57^30#9*467@_version!211&57^51#9*467@
+_vi|1|_visible!168&17^30#9*147@
+_wa|2|_wait_response!123&83^40#9*674@_wait_for_retransmit_thread!128&55^141#9*450@
+acc|2|ACCEPT!147&41^155#5*339@accept!159&33^100#9*274@
+ack|1|acknowledged!146&57^254#9*466@
+act|4|actual_content_type!196&17^193#13*147@actual_content_type!120&17^264#9*146@actuatordata!131&111^8#5*899@actuatordata!212&111^19#13*899@
+add|8|add_option!146&57^377#9*466@addValue!126&103^18#9*834@add_resource!148&25^119#9*210@add_resource!128&29^271#9*242@add_resource!128&35^264#9*290@add_content_type!120&17^313#9*146@add_if_none_match!159&33^181#9*274@add_resource!128&71^365#9*578@
+ale|0|
+all|2|allow_children!120&17^236#9*146@allowed!213&15^22#9*131@
+as_|1|as_sorted_list!214&31^342#9*258@
+att|1|attributes!120&17^199#9*146@
+ave|2|average!126&103^10#5*835@average!215&103^24#9*835@
+avg|2|avgValue!126&103^14#5*835@avgValue!215&103^37#13*835@
+bad|2|BAD_REQUEST!216&41^240#5*339@BAD_GATEWAY!216&41^252#5*339@
+blo|5|block_transfer!118&13^139#9*114@BLOCK2!147&41^157#5*339@BLOCK1!147&41^158#5*339@block2!146&57^591#9*466@block1!146&57^539#9*466@
+byt|1|byte!217&69^23#9*563@
+cac|10|cache!218&19^19#9*163@cache!219&63^25#9*515@cache_enable!170&47^50#9*387@cached_response!220&63^158#9*515@cache!221&79^10#9*643@cacheHit!172&13^31#9*115@cache!222&53^17#9*435@cached_element!172&13^32#9*115@cache_add!139&63^27#9*514@cache_enable!170&71^63#9*579@
+cal|1|callback!223&83^15#13*675@
+can|2|cancel_observing!123&83^115#9*674@cancel_observe_token!123&83^85#9*674@
+cha|2|changed!120&17^78#9*146@CHANGED!216&41^236#5*339@
+cle|3|clearFlag!143&105^6#5*851@clearFlag!224&105^12#9*851@clear!143&105^11#9*850@
+cli|3|client!225&95^39#13*771@client!226&85^104#5*691@client!227&85^123#9*691@
+clo|7|close!128&29^200#9*242@close!128&35^194#9*290@close!123&83^79#9*674@close!128&55^73#9*450@close!152&87^31#9*706@close!128&47^156#9*386@close!128&71^249#9*578@
+coa|7|coapconn!130&113^22#5*915@coap_uri!226&85^103#5*691@coap_uri!228&85^110#9*691@coap_ip!229&43^43#9*355@coap_port!229&43^44#9*355@coap_server!229&43^46#9*355@coap_port!230&85^44#9*691@
+cod|1|code!146&57^231#9*466@
+col|1|collection!231&81^34#9*659@
+com|4|completed!118&13^119#9*114@command!153&91^21#5*739@command!232&91^43#9*739@command!233&91^60#9*739@
+con|20|content_type!234&59^19#9*483@CONTINUE!216&41^238#5*339@configData!134&97^14#5*787@convert_to_raw!214&31^314#9*258@config!121&95^7#5*771@config!235&95^16#9*771@content_type!236&7^19#9*67@configFile!134&97^13#5*787@configFile!237&97^19#13*787@configdata!134&97^8#5*787@content_type!120&17^282#9*146@config!127&109^8#5*883@configfile!134&97^7#5*787@configfile!237&97^13#13*787@content_type!217&69^28#9*563@content_type!238&3^19#9*35@content_type!195&57^179#13*467@CONTENT_TYPE!147&41^152#5*339@CONTENT!216&41^237#5*339@content_type!146&57^469#9*466@
+cor|1|corelinkformat!148&25^546#9*210@
+cre|3|creation_time!220&63^160#9*515@CREATED!216&41^233#5*339@create_resource!148&25^210#9*210@
+cur|6|curValue!126&103^13#5*835@curValue!215&103^28#9*835@curTemp!239&113^38#17*915@current_mid!128&55^92#9*450@current!126&103^7#5*835@current!215&103^22#9*835@
+db|1|db!231&81^33#9*659@
+deb|2|debug_print!150&79^43#9*642@debug_print!138&53^67#9*434@
+del|10|delete!144&81^262#9*658@delete_resource!148&25^344#9*210@del_option_by_name!146&57^407#9*466@delete_expired!144&81^281#9*658@delete!123&83^165#9*674@DELETED!216&41^234#5*339@del_option_by_number!146&57^419#9*466@DELETE!216&41^231#5*339@del_option!146&57^396#9*466@deleted!120&17^58#9*146@
+des|2|deserialize!214&31^20#9*258@destination!146&57^185#9*466@
+dis|6|displayMsg!158&101^10#5*819@displayMsg!240&101^39#9*819@discover_remote!128&71^145#9*578@discover_remote_results!128&71^169#9*578@discover!123&83^232#9*674@discover!148&25^504#9*210@
+do_|9|do_POST!226&85^148#9*690@do_HEAD!226&85^135#9*690@do_OPTIONS!226&85^197#9*690@do_GET!226&85^125#9*690@do_TRACE!226&85^203#9*690@do_initial_operations!226&85^112#9*690@do_PUT!226&85^165#9*690@do_CONNECT!226&85^191#9*690@do_DELETE!226&85^181#9*690@
+dum|1|dump!117&27^153#9*226@
+dup|1|duplicated!146&57^328#9*466@
+edi|2|edit_resource!148&25^21#9*210@edit_resource!120&17^427#9*146@
+emp|1|EMPTY!216&41^227#5*339@
+ena|8|enableLed!158&101^6#5*819@enableLed!241&101^36#9*819@enableEmulator!235&95^22#9*771@enableLed!125&107^11#5*867@enableLed!242&107^37#9*867@enableEmulator!127&109^9#5*883@enableEmulator!130&113^17#5*915@enableEmulator!243&113^31#9*915@
+end|1|end_observation!128&55^129#9*450@
+err|4|errCode!153&91^22#5*739@errCode!244&91^51#9*739@error!163&69^293#9*562@ERROR_LOWER_BOUND!216&41^225#5*339@
+eta|3|ETAG!147&41^146#5*339@etag!120&17^98#9*146@etag!146&57^432#9*466@
+exe|1|execute_http_request!245&43^198#9*354@
+fet|1|fetch_mid!132&65^40#9*530@
+fil|1|file_xml!170&71^78#9*579@
+for|1|FORBIDDEN!216&41^241#5*339@
+fre|1|freshness!220&63^156#9*515@
+gat|1|GATEWAY_TIMEOUT!216&41^254#5*339@
+gen|1|gen_next_loc_path!144&81^100#9*658@
+get|36|getConfig!134&97^20#9*786@get_pressure!143&105^30#9*850@getCurrent!126&103^43#9*834@getMinValue!126&103^45#9*834@get_temperature_from_pressure!143&105^27#9*850@getValue!153&91^38#9*738@getName!153&91^30#9*738@getRateInSeconds!125&107^32#9*866@get_get_temperature_from_humidity!143&105^23#9*850@getErrorCode!153&91^36#9*738@getMin!126&103^40#9*834@getMaxValue!126&103^42#9*834@get!150&79^21#9*642@get_option_nibble!214&31^353#9*258@getAvgValue!126&103^39#9*834@getMax!126&103^37#9*834@gettotvalue!126&103^51#9*834@get_temperature!143&105^19#9*850@GET!216&41^228#5*339@getAverage!126&103^34#9*834@get_resource!148&25^416#9*210@getConfigFile!134&97^25#9*786@get_option_flags!147&41^189#9*338@getStateData!153&91^32#9*738@get_uri_as_list!156&85^76#9*690@get!123&83^125#9*674@getValue!126&103^48#9*834@get_formatted_path!155&85^56#9*690@get!138&53^30#9*434@getRateInSeconds!158&101^31#9*818@getProperty!134&97^28#9*786@get_payload!156&85^84#9*690@getStatusCode!153&91^34#9*738@get_formatted_path!145&43^56#9*354@get_humidity!143&105^14#9*850@getCommand!153&91^28#9*738@
+han|2|handlePostTest!121&95^61#9*770@handleGetTest!121&95^47#9*770@
+has|5|hashkey!185&63^199#9*515@hashkey!188&63^236#9*515@hasError!153&91^40#9*738@hasError!153&91^20#5*739@hasError!244&91^53#13*739@
+hc_|1|hc_port!230&85^42#9*691@
+hig|0|
+hos|2|host!121&95^9#5*771@host!235&95^19#9*771@
+hum|0|
+if_|4|IF_MATCH!147&41^144#5*339@if_match!159&33^133#9*274@if_none_match!159&33^169#9*274@IF_NONE_MATCH!147&41^147#5*339@
+inc|1|incomplete!163&69^276#9*562@
+ini|2|initClient!121&95^37#9*770@init_resource!120&17^415#9*146@
+ins|1|insert!144&81^117#9*658@
+int|3|INTERNAL_SERVER_ERROR!216&41^250#5*339@interface_type!120&17^354#9*146@int_to_words!214&31^370#9*258@
+inv|1|inv_code!246&27^38#9*227@
+ip|1|ip!230&85^43#9*691@
+is_|7|is_empty!150&79^36#9*642@is_full!150&79^29#9*642@is_response!214&31^247#9*258@is_full!138&53^43#9*434@is_request!214&31^238#9*258@is_safe!119&67^82#9*546@is_empty!138&53^51#9*434@
+isc|1|isConfigDataLoaded!134&97^31#9*786@
+isl|2|isLoaded!134&97^9#5*787@isLoaded!247&97^18#13*787@
+isp|2|isPrevTempSet!130&113^18#5*915@isPrevTempSet!239&113^49#21*915@
+key|1|key!220&63^157#9*515@
+len|1|length!119&67^70#9*546@
+lin|1|line_print!146&57^643#9*466@
+lis|6|listen!128&47^133#9*386@LIST!147&41^186#5*339@LIST!216&41^288#5*339@listen!128&35^131#9*290@listen!128&71^230#9*578@listen!128&29^137#9*242@
+loa|1|loadConfig!134&97^15#9*786@
+loc|8|LOCATION_PATH!147&41^150#5*339@location_query!248&51^55#9*418@location_path!248&51^13#9*418@location_query!186&17^142#9*147@location_query!249&17^433#9*147@location_query!120&17^119#9*146@LOCATION_QUERY!147&41^156#5*339@lock!144&81^19#5*659@
+low|2|lowertemp!131&111^10#5*899@lowertemp!250&111^14#9*899@
+m|1|m!217&69^25#9*563@
+mag|0|
+man|1|manage_lifetime!128&29^430#9*242@
+mar|1|mark!139&63^131#9*514@
+max|10|max!126&103^9#5*835@max!215&103^30#13*835@max_age!248&51^92#9*418@MAX_AGE!147&41^153#5*339@max_age!120&17^145#9*146@max_dimension!219&63^23#9*515@max_age!220&63^159#9*515@maxValue!126&103^16#5*835@maxValue!215&103^34#13*835@maximum_size_estimated!120&17^380#9*146@
+met|1|METHOD_NOT_ALLOWED!216&41^243#5*339@
+mid|1|mid!146&57^76#9*466@
+min|4|minValue!126&103^15#5*835@minValue!215&103^31#13*835@min!126&103^8#5*835@min!215&103^27#13*835@
+mk_|1|mk_request!123&83^286#9*674@
+mod|1|mode!219&63^24#9*515@
+mon|1|mongodb!251&87^29#13*707@
+mul|4|multicast!170&47^72#9*387@multicast!170&29^68#9*243@multicast!170&71^77#9*579@multicast!170&35^67#9*291@
+nam|7|name!153&91^19#5*739@name!252&91^45#9*739@name!168&17^24#9*147@name!126&103^6#5*835@name!215&103^21#9*835@name!253&103^47#9*835@name!119&67^100#9*546@
+nom|2|nominalaveragetemp!130&113^13#5*915@nominalTemp!127&109^11#5*883@
+non|1|non_counter!213&15^21#9*131@
+not|7|notification!172&13^25#9*115@NOT_IMPLEMENTED!216&41^251#5*339@notify!128&35^402#9*290@notify!136&15^159#9*130@NOT_FOUND!216&41^242#5*339@NOT_ACCEPTABLE!216&41^244#5*339@notify!128&29^409#9*242@
+num|2|num!217&69^24#9*563@number!119&67^19#9*546@
+obs|6|observe!146&57^503#9*466@observe_count!120&17^245#9*146@observable!120&17^227#9*146@observing!120&17^406#9*146@observe!123&83^146#9*674@OBSERVE!147&41^148#5*339@
+opt|1|options!146&57^139#9*466@
+par|4|parse_uri_query!144&81^77#9*658@parse_core_link_format!128&71^186#9*578@parse_core_link_format!144&81^38#9*658@parse_config!128&71^134#9*578@
+pat|1|path!168&17^27#9*147@
+pay|4|payload!146&57^162#9*466@payload!249&17^434#9*147@payload!217&69^27#9*563@payload!120&17^163#9*146@
+pol|2|pollCycleSecs!127&109^10#5*883@pollCycleSecs!235&95^21#9*771@
+por|2|port!121&95^12#5*771@port!235&95^20#9*771@
+pos|2|POST!216&41^229#5*339@post!123&83^186#9*674@
+pre|3|pretty_print!146&57^673#9*466@prevTemp!239&113^48#21*915@PRECONDITION_FAILED!216&41^246#5*339@
+pro|7|PROXY_SCHEME!147&41^160#5*339@proxy_schema!159&33^230#9*274@protocol!254&83^35#9*675@proxy_uri!159&33^198#9*274@PROXY_URI!147&41^159#5*339@processMessage!131&111^17#9*898@PROXY_NOT_SUPPORTED!216&41^255#5*339@
+pub|1|publishMessage!127&109^17#9*882@
+pur|9|purge!170&47^48#9*387@purge!170&71^54#9*579@purge!128&29^128#9*242@purge!132&65^51#9*530@purge!170&35^50#9*291@purge!128&35^122#9*290@purge!128&71^222#9*578@purge!128&47^125#9*386@purge!170&29^51#9*243@
+put|2|PUT!216&41^230#5*339@put!123&83^209#9*674@
+rai|2|raisetemp!131&111^9#5*899@raisetemp!250&111^13#9*899@
+rat|4|rateInSec!158&101^7#5*819@rateInSec!255&101^16#13*819@rateInSec!125&107^12#5*867@rateInSec!256&107^18#13*867@
+rd_|3|rd_lt_manager!170&29^73#9*243@rd_parameters!231&81^35#9*659@rd_stopped!170&29^71#9*243@
+rea|2|read_option_value_len_from_byte!214&31^278#9*258@read_option_value_from_nibble!214&31^256#9*258@
+rec|20|receive_response!163&69^111#9*562@receive_response!132&65^94#9*530@receive_request!132&65^65#9*530@receive_request!163&69^41#9*562@receive_request!136&15^81#9*130@receive_request!128&29^211#9*242@receive_datagram!128&71^260#9*578@receive_empty!136&15^113#9*130@receive_response!136&15^52#9*130@receive_empty!132&65^140#9*530@receive_request!129&45^14#9*370@receive_request_reverse!133&61^36#9*498@receive_datagram!128&47^167#9*386@receive_request!133&61^19#9*498@receive_request!128&35^204#9*290@receive_datagram!128&55^247#9*450@receive_empty!163&69^188#9*562@receive_datagram!245&43^75#9*354@receive_request!151&19^21#9*162@receive_request!154&75^14#9*610@
+rej|1|rejected!146&57^278#9*466@
+rem|5|remote_server!257&77^11#9*627@remove_subscriber!136&15^188#9*130@remote_path!257&77^10#9*627@remove_resource!128&29^299#9*242@remove_resource!128&35^292#9*290@
+ren|13|render_GET_advanced!137&59^21#9*482@render_POST_advanced!120&17^483#9*146@render_PUT_advanced!120&17^464#9*146@render_DELETE!120&17^493#9*146@render_GET!120&17^436#9*146@render_GET_advanced!124&3^21#9*34@render_DELETE_advanced!120&17^502#9*146@render_GET_advanced!157&7^21#9*66@render_POST!120&17^474#9*146@render_POST_advanced!137&59^44#9*482@render_DELETE_advanced!137&59^69#9*482@render_GET_advanced!120&17^445#9*146@render_PUT!120&17^455#9*146@
+req|7|requests!254&83^38#9*675@request!223&83^13#9*675@request!118&13^61#9*114@requests_lock!254&83^37#9*675@REQUEST_ENTITY_INCOMPLETE!216&41^245#5*339@REQUEST_ENTITY_TOO_LARGE!216&41^247#5*339@request_hc_path_corresponds!226&85^209#9*690@
+res|13|resource_type!236&7^18#9*67@resource_type!238&3^18#9*35@resourceLayer!170&71^62#9*579@resource_type!234&59^18#9*483@RESERVED!147&41^143#5*339@resourceLayer!170&29^58#9*243@resource!118&13^81#9*114@responded!223&83^18#13*675@resourceLayer!170&47^62#9*387@resourceLayer!170&35^57#9*291@response!223&83^17#13*675@resource_type!120&17^328#9*146@response!118&13^41#9*114@
+ret|2|retransmit_thread!172&13^27#9*115@retransmit_stop!172&13^28#9*115@
+rm_|1|RM_MESSAGE_SWITCHING!147&41^162#5*339@
+roo|4|root!170&35^62#9*291@root!170&71^72#9*579@root!170&47^67#9*387@root!170&29^63#9*243@
+rot|4|rotateDeg!143&105^5#5*851@rotateDeg!258&105^35#9*851@rotateDeg!158&101^8#5*819@rotateDeg!255&101^18#13*819@
+run|5|run!145&43^48#9*354@run!125&107^23#9*866@run!130&113^34#9*914@run!155&85^46#9*690@run!158&101^23#9*818@
+sam|2|sampleCount!126&103^12#5*835@sampleCount!259&103^16#9*835@
+sea|3|search!144&81^210#9*658@search_related!139&63^68#9*514@search_response!139&63^89#9*514@
+sen|21|send_request!154&75^36#9*610@send_request!123&83^249#9*674@send_request!136&15^33#9*130@send_request!163&69^243#9*562@send_request!132&65^192#9*530@sensordata!130&113^24#5*915@send_response!136&15^135#9*130@send_response!132&65^224#9*530@send_datagram!128&35^247#9*290@send_message!128&55^110#9*450@send_empty!136&15^67#9*130@sensorid!130&113^14#5*915@send_datagram!128&29^254#9*242@send_response!151&19^57#9*162@send_request!129&45^36#9*370@send_response!163&69^201#9*562@send_empty!132&65^258#9*530@send_datagram!128&47^266#9*386@send_empty!123&83^278#9*674@send_datagram!128&55^166#9*450@send_datagram!128&71^350#9*578@
+sep|1|separate_timer!172&13^26#9*115@
+ser|10|server_address!170&35^66#9*291@SERVICE_UNAVAILABLE!216&41^253#5*339@server_address!170&29^67#9*243@serialize_core_link_format!144&81^154#9*658@server_address!170&71^76#9*579@serialize!214&31^129#9*258@server_address!170&47^71#9*387@serverAddr!121&95^8#5*771@serverAddr!235&95^33#9*771@server!254&83^33#9*675@
+set|15|set_rotation!143&105^34#9*850@set_coap_uri!226&85^106#9*690@set_http_body!226&85^244#9*690@setCommand!153&91^42#9*738@setStatusCode!153&91^48#9*738@setEnableLedFlag!125&107^35#9*866@setDisplayMessage!158&101^38#9*818@set_http_header!226&85^225#9*690@set_http_response!226&85^256#9*690@setErrorCode!153&91^50#9*738@setEnableLedFlag!158&101^34#9*818@setName!153&91^44#9*738@setName!126&103^46#9*834@setValue!153&91^57#9*738@setStateData!153&91^46#9*738@
+sh|4|sh!158&101^9#5*819@sh!255&101^20#9*819@sh!130&113^12#5*915@sh!243&113^29#9*915@
+sho|2|show_letter!143&105^37#9*850@show_message!143&105^40#9*850@
+sim|0|
+siz|2|size!217&69^26#9*563@SIZE1!147&41^161#5*339@
+sle|2|sleepcycle!130&113^16#5*915@sleepcycle!243&113^30#9*915@
+smt|1|smtpconn!130&113^23#5*915@
+sou|1|source!146&57^208#9*466@
+spl|1|split_queries!144&81^195#9*658@
+sta|5|statusCode!153&91^23#5*739@statusCode!260&91^49#9*739@start_mongo!251&87^27#9*707@stateData!153&91^24#5*739@stateData!261&91^47#9*739@
+sto|6|stopped!170&55^50#9*451@stopped!170&47^45#9*387@stopped!170&29^48#9*243@stopped!170&35^47#9*291@stopped!170&71^51#9*579@stop!123&83^65#9*674@
+tem|0|
+thr|1|threshold!130&113^15#5*915@
+tim|10|timeStamp!126&103^5#5*835@timeStamp!259&103^15#9*835@timeStamp!215&103^20#9*835@timeStamp!262&103^21#9*835@timestamp!146&57^348#9*466@timeouted!146&57^302#9*466@timeStamp!153&91^18#5*739@timeStamp!263&91^66#9*739@timestamp!213&15^20#9*131@timestamp!118&13^101#9*114@
+to_|8|to_be_stopped!170&35^49#9*291@to_be_stopped!170&47^47#9*387@to_be_stopped!170&71^53#9*579@to_be_stopped!170&55^51#9*451@to_coap_content_type!245&43^144#9*354@to_coap_response!245&43^130#9*354@to_coap_code!245&43^151#9*354@to_be_stopped!170&29^50#9*243@
+tok|1|token!146&57^105#9*466@
+tot|4|totValue!126&103^17#5*835@totValue!215&103^27#9*835@total!126&103^11#5*835@total!215&103^23#9*835@
+tra|1|transaction!213&15^23#9*131@
+tre|1|tree!264&27^151#9*227@
+typ|1|type!146&57^54#9*466@
+uns|1|UNSUPPORTED_CONTENT_FORMAT!216&41^248#5*339@
+upd|6|update_resource!148&25^237#9*210@updateTimeStamp!153&91^65#9*738@update!150&79^12#9*642@updateData!153&91^59#9*738@update!138&53^19#9*434@update!144&81^236#9*658@
+uri|9|uri!220&63^161#9*515@URI_QUERY!147&41^154#5*339@URI_PATH!147&41^151#5*339@uri_query!265&33^53#13*275@URI_HOST!147&41^145#5*339@uri_query!159&33^63#9*274@URI_PORT!147&41^149#5*339@uri!266&85^73#9*691@uri_path!159&33^20#9*274@
+url|1|url!235&95^34#9*771@
+val|7|value!119&67^38#9*546@valid!148&25^527#9*210@validate!139&63^115#9*514@VALID!216&41^235#5*339@val!153&91^25#5*739@val!267&91^58#9*739@val!233&91^64#9*739@
+ver|1|version!146&57^33#9*466@
+vis|1|visible!120&17^218#9*146@
+wit|2|with_prefix!117&27^161#9*226@with_prefix_resource!117&27^171#9*226@
+-- END TREE
